@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="_1_week">1 semaine</string>
+    <string name="_1_month">1 mois</string>
+    <string name="_life_time">Illimité</string>
+
+    <string name = "select_type_chat"> Text- oder Video-Chat: </string>
+    <string name = "start_chat"> Démarrer le chat </string>
+        <string name = "searching"> Recherche… </string>
+        <string name = "stop"> Arrêter </string>
+        <string name = "select_gender"> Recherche: </string>
+        <string name = "woman"> Fille </string>
+        <string name = "man"> Guy </string>
+        <string name = "sex"> Sexe: </string>
+        <string name = "yourage"> Votre âge: </string>
+        <string name = "username"> Username </string>
+        <string name = "your_age"> Votre âge </string>
+        <string name = "female"> Fille </string>
+        <string name = "male"> Guy </string>
+        <string name = "Authentication_failed"> L\'authentification a échoué. </string>
+        <string name = "writeusername"> Écrivez votre nom d\'utilisateur </string>
+        <string name = "badconnection"> La qualité de votre connexion est MAUVAISE Réessayez </string>
+        <string name = "login"> Connexion </string>
+
+        <string name = "laws"> Lois d\'application:
+        \n \n \n * Empêche l\'échange de numéros de téléphone ou de liens externes.
+        \n * Empêche la demande d\'appel en dehors de l\'application.
+        \n * Empêche l\'insulte ou la malédiction dans la conversation.
+        \n * Empêche la visualisation d\'images pornographiques.
+        \n * L\'application n\'est pas destinée à l\'application d\'un mariage amusant ou d\'un mariage coutumier.
+        \n * La demande n\'est pas de demander un soi-disant mariage temporaire.
+        \n * Discussion ou réseau de discussion non sale 
+    \n
+    Avant de vous inscrire, acceptez-vous les conditions générales, l\'admissibilité?
+\n * N\'utilisez pas de symboles ou de chiffres dans le nom d\'utilisateur.
+\n * N\'accepte pas les utilisateurs de moins de 18 ans.
+\n * Cet âge n\'est pas disponible. au-dessus de 70.
+\n * Le nom d\'utilisateur doit contenir au moins 6 caractères.
+\n * Le mot de passe doit contenir au moins 6 caractères.
+\n * Toutes les entrées ne doivent pas être vides.
+\n * N\'utilisez pas de nom d\'utilisateur aléatoire.
+\n * Toutes les informations doivent être réelles.
+\n * Photos inappropriées.
+\n * L\'utilisateur est mineur.
+\n * N\'acceptez pas le spam.
+\n * N\'utilisez pas de fausses photos.
+\n * N\'utilisez pas de mots offensants lors des conversations.
+    </string>
+
+        <string name = "policy_accept"> Lisez et acceptez la politique de confidentialité des applications pour vous inscrire </string>
+        <string name = "need_acceplt"> Vous devez lire et accepter la politique de confidentialité pour vous inscrire </string>
+        <string name = "laws_tv"> Politique de confidentialité </string>
+        <string name = "Authentication_seccess"> Succès de l\'authentification </string>
+        <string name = "sign_in_with_facebook"> Connectez-vous avec Facebook </string>
+        <string name = "or"> Or </string>
+        <string name = "eror_data"> Erreur dans les données. </string>
+        <string name = "underage"> Vous avez moins de 18 ans. </string>
+        <string name = "plus70"> cet âge n\'est pas disponible. </string>
+        <string name = "usernale_error"> le nom d\'utilisateur doit être supérieur à 6 caractères </string>
+        <string name = "pp"> Politique de confidentialité </string>
+        <string name = "check_username_digi"> N\'utilisez pas de nombres dans le nom d\'utilisateur. </string>
+        <string name = "check_dymbol_username"> N\'utilisez pas de symboles dans le nom d\'utilisateur. </string>
+
+
+
+    <string name = "write_a_message"> Écrivez un message </string>
+
+        <string name = "abuse_of_content"> Abus de contenu </string>
+        <string name = "report_abuse_contnat"> Signaler un abus de contenu </string>
+        <string name = "report_abuse_description"> Cliquez sur (ENVOYER) si:
+        \n \n * (s) il vous dérange.
+        \n * (s) il utilise des images pornographiques.
+        \n * (s) il vous envoie des messages abusifs </string>
+        <string name = "send"> ENVOYER </string>
+        <string name = "send_succes"> Envoyer avec succès </string>
+        <string name = "cancel"> Annuler </string>
+        <string name = "age"> Âge </string>
+        <string name = "gender"> Sexe </string>
+        <string name = "profiefl"> Profil </string>
+        <string name = "anonymously"> Anonymously </string>
+        <string name = "upload_image_pp">
+        X Photos inappropriées.
+        \n X Photos racistes.
+        \n X Photos ethniques religieuses.
+        \n X Photos d\'armes.
+        \n X Photos pornographiques.
+        \n X Photos sexy.
+        \n X Photos de violence.
+        \n X Les images contiennent du sang.
+    </string>
+        <string name = "upload"> Importer </string>
+        <string name = "risk_deletaccount"> Vous risquez de supprimer votre compte </string>
+        <string name = "warning"> Avertissement </string>
+        <string name = "select_gallery"> Sélectionner une galerie </string>
+        <string name = "image_upload"> Téléchargement d\'image ..... </string>
+        <string name = "error_in_uploding_image"> erreur lors du téléchargement de la miniature </string>
+        <string name = "success_upload_image"> Téléchargement réussi </string>
+        <string name = "waiting"> En attente … </string>
+        <string name = "your_imagenoyapp"> Votre image n\'est pas approuvée. </string>
+        <string name = "you_may_lose_your_account_in_case"> Vous pouvez perdre votre compte si vous téléchargez: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> Je vous promets de ne rien télécharger des images ci-dessus </string>
+        <string name = "menu"> Menu </string>
+        <string name = "log_out"> Déconnexion </string>
+        <string name = "choose_app_share"> Choisissez l\'application: </string>
+        <string name = "share_app"> Je vous invite à installer l\'application randochat pour rencontrer de nouvelles personnes. </string>
+        <string name = "rate_app"> Évaluer l\'application </string>
+        <string name = "trt"> Vous n\'êtes pas connecté </string>
+        <string name = "share_appmenu"> Partager l\'application </string>
+        <string name = "regsecc"> Inscription réussie </string>
+
+
+        <string name = "dbauthf"> L\'authentification Facebook a échoué. </string>
+         <string name = "athseccfb"> Authentification avec succès sur Facebook. </string>
+         <string name = "lcancl"> Connexion Annuler </string>
+         <string name = "wsin"> Connexion en attente… </string>
+         <string name = "cosishfn"> Continuer à vous connecter </string>
+         <string name = "nextt"> Suivant </string>
+
+         <string name = "dsd"> De façon anonyme </string>
+     
+         <string name = "change_language"> Changer la langue </string>
+         <string name = "arabic"> arabe </string>
+         <string name = "german"> allemand </string>
+         <string name = "spanish"> espagnol </string>
+         <string name = "french"> français </string>
+         <string name = "portuguese"> portugais </string>
+         <string name = "english"> anglais </string>
+         <string name = "save"> Enregistrer </string>
+         <string name = "change_lang_sucs"> Changer la langue avec succès </string>
+         <string name = "russian"> russe </string>
+
+
+    <string name = "subscriptions"> Abonnements </string>
+         <string name = "bilical"> Facturation annulée </string>
+         <string name = "subseccf"> Abonnement réussi </string>
+         <string name = "yorsbc"> Vous êtes déjà abonné </string>
+         <string name = "remove_all_ads_n_unlimited_search_video_chat"> - Supprimer toutes les annonces.
+    \n- Chat vidéo de recherche illimitée. </string>
+         <string name = "free_search_video_chat_coins"> Pièces de chat vidéo de recherche gratuites </string>
+    <string name = "turkish"> turc </string>
+         <string name = "hindi"> Hindi </string>
+    <string name="both">Tous les deux</string>
+
+</resources>

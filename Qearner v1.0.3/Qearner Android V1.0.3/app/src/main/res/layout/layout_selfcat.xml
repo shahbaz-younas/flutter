@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_lyt"
+    android:layout_width="85dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/lyt_bg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="@dimen/margin_7dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="@color/card_color_light"
+        android:elevation="10dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/museo_bold"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:text="@string/title"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/text_14sp" />
+
+    <TextView
+        android:id="@+id/tvQue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/margin_5dp"
+        android:text="@string/name"
+        android:textColor="@color/colorOnSurface"
+        android:textSize="@dimen/text_12sp" />
+
+</LinearLayout>

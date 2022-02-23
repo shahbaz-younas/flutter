@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rifcode.randochat">
+
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_randochat_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_randochat_app"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.rifcode.randochat.Views.ProfileActivity"
+            android:theme="@style/Theme_with_ActionBar"
+            android:hardwareAccelerated="true"
+            android:parentActivityName="com.rifcode.randochat.Views.MainActivity"
+            />
+
+        <activity android:name="com.rifcode.randochat.Views.VideoChatViewActivity"
+            android:hardwareAccelerated="true"
+            />
+
+        <activity
+            android:name="com.rifcode.randochat.Views.ChatTextActivity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName="com.rifcode.randochat.Views.MainActivity"
+            android:theme="@style/Theme_with_ActionBar" />
+
+        <activity
+            android:name="com.rifcode.randochat.Views.MainActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.rifcode.randochat.Views.LoginActivity" />
+
+        <activity
+            android:name="com.rifcode.randochat.Views.PolicyActivity"
+            android:parentActivityName="com.rifcode.randochat.Views.LoginActivity"
+            android:theme="@style/Theme_with_ActionBar" />
+
+        <activity
+            android:name="com.rifcode.randochat.Views.LoginContinueActivity"
+            android:parentActivityName="com.rifcode.randochat.Views.LoginActivity"
+            />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+    </application>
+
+</manifest>

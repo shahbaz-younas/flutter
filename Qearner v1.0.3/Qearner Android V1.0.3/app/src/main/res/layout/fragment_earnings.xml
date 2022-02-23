@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTotal"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/total_earning"
+        android:textColor="@color/colorOnSurface" />
+
+    <TextView
+        android:id="@+id/txtEarn"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/zero"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalcoin"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEarn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/total_coins"
+        android:textColor="@color/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/txtEarncoin"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTotalcoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/zero"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtPaymentmsg"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEarncoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/select_pay_opt"
+        android:textColor="@color/colorOnSurface"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPaymentmsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/relayPaypal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_light_grey_bg"
+            android:padding="@dimen/margin_5dp">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_paypal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relayPaytm"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_light_grey_bg"
+            android:padding="@dimen/margin_5dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_paytm" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRedeem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEarncoin"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/museo_semi_bold"
+        android:gravity="center"
+        android:padding="@dimen/margin_dp"
+        android:text="@string/redeem_request"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="@color/bg_color"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:rippleColor="@color/ripple_color" />
+
+</RelativeLayout>

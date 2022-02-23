@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/sound_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewClickHandler"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/sound_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/sound_checkbox"
+            android:padding="10dp"
+            android:text="@string/sound"
+            android:textColor="@color/txt_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sound_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:onClick="viewClickHandler"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/drop_shadow" />
+
+    <RelativeLayout
+        android:id="@+id/vibration_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewClickHandler"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/vibration_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/vibration_checkbox"
+            android:padding="10dp"
+            android:text="@string/vibration"
+            android:textColor="@color/txt_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/vibration_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:onClick="viewClickHandler"
+            android:padding="10dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/drop_shadow" />
+
+
+    <RelativeLayout
+        android:id="@+id/font_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewClickHandler"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/font_textView"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:text="@string/font_size"
+            android:textColor="@color/txt_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/drop_shadow" />
+
+
+    <TextView
+        android:id="@+id/tvOk"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:background="@color/card_color_light"
+        android:gravity="center"
+        android:onClick="viewClickHandler"
+        android:padding="@dimen/margin_10dp"
+        android:text="@string/ok"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+

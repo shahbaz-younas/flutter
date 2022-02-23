@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Qearner</string>
+    <string name="completed">Congratulations!!</string>
+    <string name="congratulations">Congratulations!!</string>
+    <string name="time_challenge_msg">You have completed challenge in&#160;</string>
+    <string name="sec">&#160;sec&#160;</string>
+    <string name="not_completed">Better Luck Next Tme</string>
+    <string name="select_category">Select Category</string>
+    <string name="coinstore" >Coin Store</string>
+    <string name="select_sub_category">Select SubCategory</string>
+    <string name="self_challenge">Self Challenge</string>
+    <string name="daily_quiz">Daily Quiz</string>
+    <string name="random_quiz">Random Quiz</string>
+    <string name="sound">Sound</string>
+    <string name="apply_code">Apply Referral Code</string>
+    <string name="apply">Apply</string>
+    <string name="share_app">Share App</string>
+    <string name="update_msg_1">Update the app for a batter experience!</string>
+    <string name="not_now">Not Now</string>
+    <string name="update_now">Update</string>
+    <string name="update_alert">Update Alert</string>
+    <string name="vibration">Vibration</string>
+    <string name="rate_app">Rate Us</string>
+    <string name="share_via">Share via</string>
+
+    <string name="play_again">Play Again</string>
+    <string name="_coins">&#160;Coins</string>
+    <string name="home">Home</string>
+    <string name="share_score">Share Score</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruction">Instruction</string>
+    <string name="msg_no_internet">No internet connection!!</string>
+    <string name="no_category">category not available!!</string>
+    <string name="not_available">Not Available!!</string>
+    <string name="no_data">data not found!!</string>
+    <string name="ttl_ques">Ques :&#160;</string>
+    <string name="select_no_of_question">Select Number Of Questions</string>
+    <string name="select_time_period">Select Time Period in Minutes</string>
+    <string name="no_sub_category">sub category not available!!</string>
+    <string name="retry">RETRY</string>
+    <string name="title">Title</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="hello">Hello,&#160;</string>
+    <string name="empty_alert_msg">Field should not be empty</string>
+    <string name="enter_name">Enter your name!</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="un_attend">Un-Attempted</string>
+    <string name="answer">answer</string>
+    <string name="ok">Okay</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="report">Report Question</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="result">Result</string>
+    <string name="title_already_used">Life Line Already Used !!</string>
+    <string name="msg_lifeline_used">You can use only once per quiz</string>
+    <string name="self_challenge_sub_msg">Are you sure ?\nYou want to submit this test?</string>
+    <string name="zero">00</string>
+    <string name="challenge_time">Challenge Time&#160;</string>
+    <string name="loading">Loading…</string>
+    <string name="go_back">Go Back</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="do_not_have_act">Don\'t have an account?</string>
+    <string name="already_have_act">Already have an account?</string>
+    <string name="create_act">Create New One</string>
+    <string name="signup_alert">you are not registered yet, please SignUp</string>
+    <string name="invalid_pass">The password is invalid, please check your password</string>
+    <string name="email_alert_1">Please enter email address</string>
+    <string name="email_alert_2">Please enter valid email address</string>
+    <string name="pass_alert">Please enter password</string>
+    <string name="from_camera">Capture from Camera</string>
+    <string name="verify_email_sent">Verification email sent to &#160;</string>
+    <string name="verify_email_sent_f">Failed to send verification email.</string>
+    <string name="ref_code">Referral code</string>
+    <string name="act_verify_1">A Verified link has been sent to your email account</string>
+    <string name="act_verify_2">Please click on the link that has just been sent to your email account to verify your email and continue the login process.</string>
+    <string name="account_deactivate">Your Account is deactivate by admin</string>
+    <string name="select_language">Select Language</string>
+    <string name="refer_share_msg_1">I have earned coins using&#160;</string>
+    <string name="refer_share_msg_2">&#160;app. you can also earn coin by downloading app from below link and enter referral code while login-&#160; </string>
+    <string name="msg_enough_coin">Not Enough Coins !!</string>
+    <string name="coin_message1">You don\'t have enough coins. You need at least&#160;</string>
+    <string name="coin_message2">&#160;coins to use this lifeline. \n\nWatch a short video &amp; get free coins</string>
+    <string name="not_enough_coin">You don\'t have enough coins.</string>
+
+    <!--Leaderboard filter string-->
+
+    <string name="skip">Skip</string>
+    <string name="game_score">Game Score</string>
+    <string name="earn_coin">Earn coins</string>
+    <string name="msg_watch_video">Watch Now</string>
+    <string name="attended">Attended Ques</string>
+    <string name="correct_ans">Correct Answer</string>
+    <string name="in_correct_ans">InCorrect Answer</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">InCorrect</string>
+    <string name="color_code">Color Code</string>
+
+    <string name="about_us">About Us</string>
+    <string name="exit_msg_quiz">Do you want to exit the Quiz?</string>
+    <string name="leave_msg_1">Are you sure?</string>
+    <string name="leave_msg_2">You haven\'t submitted this test yet. Are you sure you wan to leave?</string>
+
+    <!--instruction battle String-->
+
+    <!--instruction  messages-->
+    <string name="leaderboard">Leaderboard</string>
+
+    <string name="change_font_size">Change font Size</string>
+    <string name="font_size">Font Size</string>
+
+    <string name="update_profile">Update Profile</string>
+    <string name="user_statistics">User Statistics</string>
+    <string name="name">Name</string>
+    <string name="hint_name">Name*</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="play_quiz">Quiz Zone</string>
+    <string name="battle_quiz">Battle Quiz</string>
+    <string name="notification">Notification</string>
+    <string name="from_library">Choose from Library</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Email*</string>
+    <string name="hint_password">Password*</string>
+    <string name="password">Password</string>
+    <string name="password_valid">Password should be at least 6 characters</string>
+    <string name="refer">Referral Code</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="reset_pass">Enter the email address you used when creating the account. A message will be sent to that address containing a link to reset your password.</string>
+    <string name="logout">Logout</string>
+    <string name="account_delete">Account Delete?</string>
+    <string name="re_login">Re-Login Again!!</string>
+    <string name="relogin_message">To delete Your account, You must have Login in recently.\nThen After you can delete your Account</string>
+
+    <string name="rank">Rank</string>
+    <string name="score">Score</string>
+    <string name="coins">Coins</string>
+    <string name="statistics">Statistics</string>
+    <string name="term_privacy">By Logging / SigningUp in, you agree to our \nTerms of Service and Privacy Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms">Terms of Service</string>
+    <string name="modulo_sign">%</string>
+    <!--Strings for battle-->
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="exit">EXIT</string>
+    <string name="play_with_computer1">Play With Robot</string>
+    <string name="congrats">Congratulation</string>
+    <string name="next_time">Batter Luck Next Time!!</string>
+    <string name="robot">Robot</string>
+    <string name="msg_player_not_available"><h3><b>Oops!</b></h3>\n Player Not Available For Battle!!</string>
+    <string name="question_not_available">Question Not Available</string>
+    <string name="leave_battle_txt"> &#160;has leave the game.</string>
+    <string name="msg_win_battle">, you win the Battle</string>
+    <string name="you_win">"You Win!! \n"</string>
+    <string name="msg_opponent_win_battle">&#160;win the Battle</string>
+    <string name="msg_alert_leave">"Are you sure,\n you want to leave battle ?"</string>
+    <string name="msg_draw_game">"Draw..!!\n The Game Is Over play again"</string>
+    <string name="try_again1">Try Again</string>
+    <string name="winner">Winner</string>
+    <string name="victory_">Great! Victory </string>
+    <string name="you_loss">You Loss</string>
+    <string name="defeat">Oops Defeat</string>
+    <string name="or_sign_in_with">Or Sign in with</string>
+    <string name="category">Category</string>
+    <string name="que">Que&#160;</string>
+    <string name="search_player">Search Player</string>
+    <string name="leave_battle">Leave Battle</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="back_message">Are you sure , you  want to leave ?</string>
+    <!--invite friend msg-->
+    <string name="invite_friend">Invite friends</string>
+    <string name="refer_code_copied">Refer Code Copied to Clipboard</string>
+    <string name="refer_message_1">Refer a Friend, and you will get&#160;</string>
+    <string name="refer_message_2">&#160;coins each time your referral code is used and your friend will get&#160;</string>
+    <string name="refer_message_3">&#160;coins by using your referral code</string>
+    <string name="your_refer_code">Your Referral Code</string>
+    <string name="tap_copy">Tap To Copy</string>
+    <string name="refer_now">SHARE NOW</string>
+    <string name="not_enough_entry_coin"> Earn Coin And Join Contest </string>
+
+    <string name="today">Today</string>
+    <string name="month">Month</string>
+    <string name="all">All</string>
+    <string name="past">Past</string>
+    <string name="live">Live</string>
+    <string name="up_coming">Upcoming</string>
+
+    <string name="re_battle">RE-BATTLE</string>
+    <string name="logout_msg">Are you sure!!\nYou want to Log out?</string>
+    <string name="delete_msg">Are you sure you want to delete your Account?\nThis action cannot be undone.After your account deleted , you will be logged out and all other  active session will be terminated.</string>
+    <string name="true_false">True/False</string>
+    <string name="contest_complete">Contest Complete</string>
+    <string name="refer_code_generate_error_msg">Your refer code not generated please re-login for your refer code.</string>
+    <string name="category_select">Please select category</string>
+    <string name="subcategory_select">Please select subCategory</string>
+    <string name="question_select">Please select questions</string>
+    <string name="minutes_select">Please select minutes</string>
+    <string name="rewards_message">Rewards ads not loaded Try after some time!!</string>
+    <string name="reward_ads_title">Ads not loaded!!</string>
+    <string name="text_store" >Welcome to Coin Store\nThe easy way you can buy Coin!!</string>
+
+    <string name="enter_email">Enter email address</string>
+    <string name="no_notification">Notification not available!!</string>
+    <string name="no_bookmark">Bookmarked questions not available!!</string>
+    <string name="reset_msg1">Enter the email address \nassociated with your \naccount.</string>
+    <string name="reset_msg2">We will email you a link to reset your \npassword</string>
+    <string name="by_wrteam">By WRTeam</string>
+    <!--facebook appId for login-->
+    <string name="facebook_app_id">946078836125801</string>
+    <string name="fb_login_protocol_scheme">fb946078836125801</string>
+
+    <!--New Strings-->
+    <string name="view_all">View All</string>
+    <string name="quiz_zone">Quiz Zone</string>
+    <string name="play_zone">Play Zone</string>
+    <string name="battle_zone">Battle Zone</string>
+    <string name="random_battle">Random Battle</string>
+    <string name="contest_zone">Contest Zone</string>
+    <string name="contest_quiz">Contest Quiz</string>
+    <string name="practice">Practice</string>
+    <string name="refer_amp_earn"><![CDATA[Refer & Earn]]></string>
+    <string name="free_coins">Free Coins</string>
+    <string name="coin_msg">Scratch Card, Get coins!</string>
+    <string name="get_up_to">Get Up-to</string>
+    <string name="get_free_coins">Get Free Coins</string>
+    <string name="permission_granted">Permission Grant</string>
+    <string name="profile_permission_msg">Profile picture Change You need to give permission. You can give permission From Android Setting -> App.</string>
+
+    <!--earn text string-->
+    <string name="my_earning">My Earnings</string>
+    <string name="transaction">Transactions</string>
+    <string name="wallet">Wallet</string>
+    <string name="not_enough_amount">Not Enough Amount to Redeem ,Play Quiz Earn More Coins!!</string>
+    <string name="accountDetails">Please Enter Account details!!</string>
+    <string name="enter_account_details">Enter Account Details</string>
+    <string name="redeem_success">Successfully Redeem!!</string>
+    <string name="redeem_request">Redeem request</string>
+    <string name="already_redeem">Already Redeem!!</string>
+    <string name="total_earning">Total Earnings</string>
+    <string name="total_coins">Total Coins</string>
+    <string name="select_pay_opt">Select your payout option!!</string>
+    <string name="redeem_msg">Your Amount will be Deposit within 3 business days!!</string>
+    <string name="no_transaction">Transaction not available!!</string>
+    <string name="enter_redeem_amt">Enter redeem amount</string>
+    <string name="paypal_act">Paypal Account</string>
+    <string name="rs">\u20B9&#160;</string>
+    <string name="dollar">$&#160;</string>
+    <string name="bullet">&#160;•&#160;</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="entry_fees">Entry fees&#160;</string>
+    <string name="winner_price">Winner Price&#160;</string>
+
+    <string name="players">Players</string>
+    <string name="live_on">Live On</string>
+    <string name="end_on">End On</string>
+    <string name="ending_on">Ending On</string>
+    <string name="contest_detail">Contest Detail</string>
+    <string name="win_title">what you get to win</string>
+    <string name="play_now">Play Now</string>
+    <string name="random_battle_msg">Search opponent and play one to one battle with them. </string>
+    <string name="_rank">&#160;Rank:&#160;</string>
+    <string name="get_daily_coin_msg">Congrats!! \nYou get free coins!!</string>
+    <string name="Waiting_for_opponent">Waiting For Opponent</string>
+    <string name="already_get_coins">You already received free coins!</string>
+    <string name="battle_entry_coin_alert">You don\'t have enough entry coins to play battle quiz!!</string>
+    <string name="daily_quiz_already_played">You already completed your DailyQuiz.</string>
+    <string name="contest_not_available">Contest not available!!</string>
+    <string name="battle_entry_coin_msg">Entry coin only deduct when opponent join for Battle.</string>
+<string name="privacy_policy_alert_msg">Please Accept Privacy Policy Then after you can Login!!</string>
+    <string name="account_logout">Account Logged out </string>
+    <string name="account_logout_alert_msg">You have been logged out from account due to being on more than one device.To avoid this, only log in with one device at a time.</string>
+    <!--Ad Mob Ids-->
+
+    <string name="adAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_Rewarded_Video_Ads">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_unit_id">ca-app-pub-3940256099942544/8135179316</string>
+
+</resources>

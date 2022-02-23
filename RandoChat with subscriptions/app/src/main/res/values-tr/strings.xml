@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="_1_week">1 Hafta</string>
+    <string name="_1_month">1 Ay</string>
+    <string name="_life_time">Sınırsız</string>
+
+        <string name = "start_chat"> Sohbeti Başlat </string>
+        <string name = "searching"> Aranıyor… </string>
+        <string name = "stop"> Durdur </string>
+        <string name = "select_gender"> Aranıyor: </string>
+        <string name = "woman"> Kız </string>
+        <string name = "man"> Adam </string>
+        <string name = "select_type_chat"> Metin Veya Görüntülü Sohbet: </string>
+
+        <string name = "sex"> Cinsiyet: </string>
+        <string name = "yourage"> Yaşınız: </string>
+        <string name = "username"> Kullanıcı adı </string>
+        <string name = "your_age"> Yaşınız </string>
+        <string name = "female"> Kız </string>
+        <string name = "male"> Guy </string>
+
+        <string name = "Authentication_failed"> Kimlik doğrulama başarısız oldu. </string>
+        <string name = "writeusername"> Kullanıcı Adınızı Yazın </string>
+        <string name = "badconnection"> Bağlantı Kaliteniz KÖTÜdür Tekrar deneyin </string>
+        <string name = "login"> giriş </string>
+
+        <string name = "laws"> Uygulama Yasaları:
+    \n \n \n * Telefon numaralarının veya harici bağlantıların alışverişini engeller.
+    \n * Uygulama dışında çağrı isteğini önler.
+    \n * Sohbette hakaret veya küfürü önler.
+    \n * Pornografik görüntülerin izlenmesini önler.
+    \n * Başvuru eğlenceli evlilik veya geleneksel evlilik uygulaması için değildir.
+    \n * Başvuru, sözde geçici evlilik istemez.
+    \n * Kirli sohbet veya sohbet ağı değil
+    \n Kayıt Olmadan Önce Şartlar ve Koşulları, Uygunluğu kabul ediyor musunuz?
+\n * Kullanıcı adında sembol veya sayı kullanmayın.
+\n * 18 yaşından küçük kullanıcıları kabul etmeyin.
+\n* Bu yaş mevcut değil. 70\'in üstünde.
+\n * Kullanıcı adı en az 6 karakterden oluşmalıdır.
+    \n * Şifre en az 6 karakterden oluşmalıdır.
+\n * Tüm girişler boş olmamalıdır.
+\n * Rastgele kullanıcı adı kullanmayın.
+\n * Tüm bilgiler gerçek olmalıdır.
+    \n * Uygunsuz Fotoğraflar.
+\n * Kullanıcı reşit değil.
+\n * Spam kabul etmeyin.
+\n * Sahte fotoğraf kullanmayın.
+\n * Görüşme sırasında rahatsız edici kelimeler kullanmayın.
+    </string>
+
+        <string name = "policy_accept"> Kaydolmak için uygulama gizlilik politikasını okuyun ve kabul edin </string>
+        <string name = "need_acceplt"> Kaydolmak için gizlilik politikasını okumanız ve kabul etmeniz gerekiyor </string>
+        <string name = "laws_tv"> Gizlilik Politikası </string>
+        <string name = "Authentication_seccess"> Kimlik doğrulama başarılı </string>
+        <string name = "sign_in_with_facebook"> Facebook ile giriş yapın </string>
+        <string name = "or"> Veya </string>
+        <string name = "eror_data"> Verilerdeki hata. </string>
+        <string name = "underage"> 18 yaşın altındasınız. </string>
+        <string name = "plus70"> bu yaş mevcut değil. </string>
+        <string name = "usernale_error"> kullanıcı adı 6 karakterden büyük olmalı </string>
+        <string name = "pp"> Gizlilik Politikası </string>
+        <string name = "check_username_digi"> Kullanıcı adında sayı kullanma. </string>
+        <string name = "check_dymbol_username"> Kullanıcı adında sembol kullanmayın. </string>
+
+
+    <string name = "write_a_message"> Bir mesaj yazın </string>
+
+        <string name = "abuse_of_content"> İçeriğin kötüye kullanılması </string>
+        <string name = "report_abuse_contnat"> İçeriğin kötüye kullanımını bildir </string>
+        <string name = "report_abuse_description"> Aşağıdaki durumlarda (GÖNDER) öğesini tıklayın:
+        \ n \ n * (s) sizi rahatsız ediyor.
+        \ n * (s) pornoghraphy görüntüleri kullanıyor.
+        \ n * (s) size küfürlü mesajlar gönderdi </string>
+        <string name = "send"> GÖNDER </string>
+        <string name = "send_succes"> Başarıyla Gönder </string>
+        <string name = "cancel"> İptal </string>
+        <string name = "age"> Yaş </string>
+        <string name = "gender"> Cinsiyet </string>
+        <string name = "profiefl"> Profil </string>
+        <string name = "anonymously"> Anonim olarak </string>
+        <string name = "upload_image_pp">
+        X Uygunsuz Fotoğraflar.
+        \n X Irkçı Fotoğrafları.
+        \n X Dini Etnisite Fotoğrafları.
+        \n X Silah Fotoğrafları.
+        \n X Pornografik fotoğraflar.
+        \n X Seksi fotoğraflar.
+        \n X Şiddet Fotoğrafları.
+        \n X Görüntüler kan içerir.
+    </string>
+        <string name = "upload"> Yükle </string>
+        <string name = "risk_deletaccount"> Hesabınızı silme riskiniz var </string>
+        <string name = "warning"> Uyarı </string>
+        <string name = "select_gallery"> Galeri Seç </string>
+        <string name = "image_upload"> Resim Yükleme ..... </string>
+        <string name = "error_in_uploding_image"> küçük resim yüklenirken hata </string>
+        <string name = "success_upload_image"> Başarılı Yükleme </string>
+        <string name = "waiting"> Bekliyor … </string>
+        <string name = "your_imagenoyapp"> Resminiz onaylanmadı. </string>
+        <string name = "you_may_lose_your_account_in_case"> Yüklemeniz durumunda hesabınızı kaybedebilirsiniz: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> Yukarıdaki resimlerden hiçbir şey yüklemeyeceğime söz veriyorum </string>
+        <string name = "menu"> Menü </string>
+        <string name = "log_out"> Oturumu Kapat </string>
+        <string name = "choose_app_share"> Uygulama seçin: </string>
+        <string name = "share_app"> Sizi yeni insanlarla tanışmak için randochat uygulamasını yüklemeye davet ediyorum. </string>
+        <string name = "rate_app"> Uygulamayı derecelendir </string>
+        <string name = "trt"> Bağlı değilsiniz </string>
+        <string name = "share_appmenu"> Uygulamayı paylaş </string>
+        <string name = "regsecc"> Başarıyla Kayıt Ol </string>
+
+        <string name = "dbauthf"> Facebook Kimlik Doğrulaması başarısız oldu. </string>
+        <string name = "athseccfb"> Facebook başarısıyla kimlik doğrulaması. </string>
+        <string name = "lcancl"> Giriş İptal </string>
+        <string name = "wsin"> Bekleniyor Oturum aç… </string>
+        <string name = "cosishfn"> Oturum Açmaya Devam Et </string>
+        <string name = "nextt"> Sonraki </string>
+        <string name = "subscriptions"> Abonelikler </string>
+        <string name = "bilical"> Faturalandırma İptal Edildi </string>
+        <string name = "subseccf"> Abonelik Başarıyla </string>
+        <string name = "yorsbc"> Zaten abone oldunuz </string>
+        <string name = "remove_all_ads_n_unlimited_search_video_chat"> - Tüm Reklamları Kaldır.
+    \n- Sınırsız Arama Görüntülü Sohbet. </string>
+        <string name = "free_search_video_chat_coins"> Ücretsiz görüntülü sohbet paraları ara </string>
+
+        <string name = "dsd"> Anonim olarak </string>
+        <string name = "change_language"> Dili Değiştir </string>
+        <string name = "arabic"> Arapça </string>
+        <string name = "german"> Almanca </string>
+        <string name = "spanish"> İspanyolca </string>
+        <string name = "french"> Fransızca </string>
+        <string name = "portuguese"> Portekizce </string>
+        <string name = "english"> İngilizce </string>
+        <string name = "save"> Kaydet </string>
+        <string name = "change_lang_sucs"> Dili başarıyla değiştir </string>
+        <string name = "russian"> Rusça </string>
+    <string name = "turkish"> Türkçe </string>
+         <string name = "hindi"> Hintçe </string>
+    <string name="both">her ikisi de</string>
+
+</resources>

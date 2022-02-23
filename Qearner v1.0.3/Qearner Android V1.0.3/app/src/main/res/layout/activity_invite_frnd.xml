@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/lytInvite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_curve_bg"
+                android:paddingTop="@dimen/margin_20dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:layout_marginTop="@dimen/margin_dp"
+                    android:layout_marginEnd="@dimen/margin_dp"
+                    android:layout_marginBottom="@dimen/margin_dp"
+                    app:srcCompat="@drawable/ic_refer_image"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_refer_earn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/museo_bold"
+
+                    android:text="@string/refer_amp_earn"
+                    android:textColor="@color/txt_color"
+                    android:textSize="@dimen/text_size_22" />
+
+
+                <TextView
+                    android:id="@+id/tvReferCoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_below="@+id/tv_refer_earn"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:textColor="@color/txt_color"
+                    android:textSize="@dimen/text_size_16" />
+
+
+            </RelativeLayout>
+            <!--<ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/lyttop"
+                android:layout_marginTop="15dp">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lytInvite"
+                android:layout_margin="@dimen/margin_20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_steps"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/your_refer_code"
+                    android:textColor="@color/txt_color"
+                    android:textSize="@dimen/mid_text" />
+
+                <TextView
+                    android:id="@+id/tvCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:background="@drawable/bg_dashedborder"
+
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/light_gray"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/tvCopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_15"
+                    android:gravity="center"
+                    android:text="@string/tap_copy"
+                    android:textColor="@color/txt_color" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnInvite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_30dp"
+                    android:fontFamily="@font/museo_semi_bold"
+                    android:gravity="center"
+                    android:onClick="OnInviteFrdClick"
+                    android:padding="@dimen/margin_dp"
+                    android:text="@string/refer_now"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:textColor="@color/bg_color"
+                    android:textStyle="bold"
+                    app:rippleColor="@color/ripple_color" />
+
+
+            </LinearLayout>
+            <!--</ScrollView>-->
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

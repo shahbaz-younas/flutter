@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UbuntuRegular">
+        <attr name="customFontUbuntuRegular" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="UbuntuMedium">
+        <attr name="customFontUbuntuMedium" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="UbuntuBold">
+        <attr name="customFontUbuntuBold" format="string"/>
+    </declare-styleable>
+
+
+</resources>

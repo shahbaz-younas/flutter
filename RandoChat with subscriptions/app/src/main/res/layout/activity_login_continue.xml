@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center"
+           android:padding="15dp"
+           >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="@string/username"
+            android:id="@+id/edtUsername"
+            android:maxLength="13"
+            android:lines="1"
+            android:inputType="text"
+            android:background="@drawable/corner"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="@string/your_age"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/edtAge"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:lines="1"
+            android:background="@drawable/corner"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/corner"
+            >
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/sex"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/girl"
+                    />
+
+                <com.rifcode.randochat.WidgetsFonts.RbUbuntuMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/female"
+                    android:textSize="18sp"
+                    android:id="@+id/rdFemale"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/male"
+                    />
+
+                <com.rifcode.randochat.WidgetsFonts.RbUbuntuMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rMen"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:text="@string/male"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+
+            <com.rifcode.randochat.WidgetsFonts.ChbUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbPolicy"
+                android:text="@string/policy_accept"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorWhite"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:id="@+id/tvlaws"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/laws_tv"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/corner"
+                />
+
+        </LinearLayout>
+
+
+        <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogIn"
+            android:textSize="20sp"
+            android:text="@string/nextt"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible"
+            android:background="@drawable/corner"
+            android:drawablePadding="8dp"
+            android:layout_gravity="center"/>
+
+
+       </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

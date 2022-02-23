@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="170dp"
+    android:layout_height="195dp"
+    android:layout_marginEnd="@dimen/margin_dp"
+    android:background="@color/card_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="@dimen/margin_dp"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@color/card_color_light" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="@dimen/margin_10dp"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:background="@color/card_color_light" />
+
+</LinearLayout>

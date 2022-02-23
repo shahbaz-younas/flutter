@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "_1_week"> 1 неделя </string>
+    <string name = "_1_month"> 1 месяц </string>
+    <string name = "_life_time"> Без ограничений </string>
+
+    <string name = "start_chat"> Начать чат </string>
+        <string name = "searching"> Поиск … </string>
+        <string name = "stop"> Stop </string>
+        <string name = "select_gender"> Ищу: </string>
+        <string name = "woman"> Girl </string>
+        <string name = "man"> Парень </string>
+        <string name = "sex"> Пол: </string>
+        <string name = "yourage"> Ваш возраст: </string>
+        <string name = "username"> Имя пользователя </string>
+        <string name = "your_age"> Ваш возраст </string>
+        <string name = "female"> Girl </string>
+        <string name = "male"> Парень </string>
+        <string name = "Authentication_failed"> Ошибка аутентификации. </string>
+        <string name = "writeusername"> Напишите ваше имя пользователя </string>
+        <string name = "badconnection"> Ваше качество соединения плохое Попробуйте еще раз </string>
+        <string name = "login"> Логин </string>
+
+        <string name = "laws"> Законы применения:
+        \n \n \n * Предотвращает обмен телефонными номерами или внешними ссылками.
+        \n * Предотвращает запрос вызова за пределами приложения.
+        \n * Предотвращает оскорбления или ругательства в разговоре.
+        \П * Предотвращает просмотр порнографических изображений.
+        \n * Заявка не предназначена для веселого брака или обычного брака.
+        \n * Заявка не должна требовать так называемого временного брака.
+        \n * Не грязный чат или сеть чата
+        \п
+    До регистрации, Согласны ли вы с Условиями, правомочностью?
+\n * Не используйте символы или цифры в имени пользователя.
+\n * Не принимать пользователя младше 18 лет.
+\n * Этот возраст недоступен. выше 70
+\n * Имя пользователя должно содержать не менее 6 символов.
+\n * Пароль должен содержать не менее 6 символов.
+\n * Все записи должны быть не пустыми.
+\n * Не используйте случайное имя пользователя.
+\n * Вся информация должна быть реальной.
+\n * Неуместные фотографии.
+\n * Пользователь - несовершеннолетний.
+\n * Не принимать спам.
+\n * Не используйте поддельные фотографии.
+\n * Не используйте оскорбительные слова во время разговоров.
+    </string>
+
+        <string name = "policy_accept"> Прочитайте и примите политику конфиденциальности приложения для регистрации </string>
+        <string name = "need_acceplt"> Вам необходимо прочитать и принять политику конфиденциальности, чтобы зарегистрироваться </string>
+        <string name = "laws_tv"> Политика конфиденциальности </string>
+        <string name = "Authentication_seccess"> Успешная аутентификация </string>
+        <string name = "sign_in_with_facebook"> Войти через Facebook </string>
+        <string name = "or"> Or </string>
+        <string name = "eror_data"> Ошибка в данных. </string>
+        <string name = "underage"> Вам меньше 18 лет. </string>
+        <string name = "plus70"> этот возраст недоступен. </string>
+        <string name = "usernale_error"> имя пользователя должно быть больше 6 символов </string>
+        <string name = "pp"> Политика конфиденциальности </string>
+        <string name = "check_username_digi"> Не используйте числа в имени пользователя. </string>
+        <string name = "check_dymbol_username"> Не используйте символы в имени пользователя. </string>
+
+
+    <string name = "write_a_message"> Написать сообщение </string>
+
+        <string name = "abuse_of_content"> Злоупотребление контентом </string>
+        <string name = "report_abuse_contnat"> Сообщить о злоупотреблении контентом </string>
+        <string name = "report_abuse_description"> Нажмите (ОТПРАВИТЬ), если:
+        \ n \ n * (s) он беспокоит вас.
+        \ N * (s) он использует pornoghraphy изображения.
+        \ n * (s) он отправляет вам оскорбительные сообщения </string>
+        <string name = "send"> SEND </string>
+        <string name = "send_succes"> Успешная отправка </string>
+        <string name = "cancel"> Cancel </string>
+        <string name = "age"> Age </string>
+        <string name = "gender"> Пол </string>
+        <string name = "profiefl"> Профиль </string>
+        <string name = "anonymously"> анонимно </string>
+        <string name = "upload_image_pp">
+        X Неуместные фотографии.
+        \n X Расистские фотографии.
+        \n X Религиозная Этнос Фотографии.
+        Фотографии оружия.
+        \п Х порнографические фотографии.
+        \n X Сексуальные фото.
+        \n X фотографии насилия.
+        \n X Изображения содержат кровь.
+    </string>
+        <string name = "upload"> Upload </string>
+        <string name = "risk_deletaccount"> Вы рискуете удалить свою учетную запись </string>
+        <string name = "warning"> Warning </string>
+        <string name = "select_gallery"> Выбрать галерею </string>
+        <string name = "image_upload"> Загрузка изображения ..... </string>
+        <string name = "error_in_uploding_image"> ошибка при загрузке эскиза </string>
+        <string name = "success_upload_image"> Успешная загрузка </string>
+        <string name = "waiting"> Ожидание … </string>
+        <string name = "your_imagenoyapp"> Ваше изображение не одобрено. </string>
+        <string name = "you_may_lose_your_account_in_case"> Вы можете потерять свой аккаунт в случае загрузки: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> Я обещаю, что не буду загружать что-либо из изображений выше </string>
+        <string name = "menu"> Меню </string>
+        <string name = "log_out"> Выйти </string>
+        <string name = "choose_app_share"> Выберите приложение: </string>
+        <string name = "share_app"> Я приглашаю вас установить приложение randochat для знакомства с новыми людьми. </string>
+        <string name = "rate_app"> Оценить приложение </string>
+        <string name = "trt"> Вы не подключены </string>
+        <string name = "share_appmenu"> Поделиться приложением </string>
+        <string name = "regsecc"> Успешно зарегистрируйтесь </string>
+
+        <string name = "dbauthf"> Ошибка аутентификации Facebook. </string>
+        <string name = "athseccfb"> Аутентификация с успехом в Facebook. </string>
+        <string name = "lcancl"> Отмена входа </string>
+        <string name = "wsin"> Ожидание входа … </string>
+        <string name = "cosishfn"> Продолжить SignIN </string>
+        <string name = "nextt"> Next </string>
+
+        <string name = "dsd"> Анонимно </string>
+        
+        <string name = "change_language"> Изменить язык </string>
+        <string name = "arabic"> арабский </string>
+        <string name = "german"> German </string>
+        <string name = "spanish"> испанский </string>
+        <string name = "french"> французский </string>
+        <string name = "portuguese"> Португальский </string>
+        <string name = "english"> английский </string>
+        <string name = "save"> Save </string>
+        <string name = "change_lang_sucs"> Изменение языка успешно </string>
+        <string name = "russian"> русский </string>
+
+    <string name = "subscriptions"> Подписки </string>
+         <string name = "bilical"> Оплата отменена </string>
+         <string name = "subseccf"> Подписка успешно </string>
+         <string name = "yorsbc"> Вы уже подписаны </string>
+         <string name = "remove_all_ads_n_unlimited_search_video_chat"> - Удалить все объявления.
+    \n- Неограниченный поиск в видеочате. </string>
+         <string name = "free_search_video_chat_coins"> Бесплатный поиск монет в видеочате </string>
+    <string name = "select_type_chat"> Текстовый или видео чат: </string>
+    <string name = "turkish"> Turkish </string>
+         <string name = "hindi"> хинди </string>
+    <string name="both">обе</string>
+
+</resources>

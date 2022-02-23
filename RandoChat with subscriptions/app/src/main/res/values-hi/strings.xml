@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="_1_week">1 सप्ताह</string>
+    <string name="_1_month">1 महीना</string>
+    <string name="_life_time">असीमित</string>
+
+
+        <string name = "start_chat"> चैट प्रारंभ करें </string>
+        <string name = "searching"> Searching … </string>
+        <string name = "stop"> Stop </string>
+        <string name = "select_gender"> ढूंढ रहे हैं: </string>
+        <string name = "woman"> लड़की </string>
+        <string name = "man"> Guy </string>
+        <string name = "select_type_chat"> टेक्स्ट या वीडियो चैट: </string>
+
+        <string name = "sex"> लिंग: </string>
+        <string name = "yourage"> आपकी उम्र: </string>
+        <string name = "username"> उपयोगकर्ता नाम </string>
+        <string name = "your_age"> आपकी उम्र </string>
+        <string name = "female"> लड़की </string>
+        <string name = "male"> Guy </string>
+
+        <string name = "Authentication_failed"> प्रमाणीकरण विफल। </string>
+        <string name = "writeusername"> अपना उपयोगकर्ता नाम लिखें </string>
+        <string name = "badconnection"> आपकी कनेक्शन गुणवत्ता BAD फिर से प्रयास करें </string>
+        <string name = "login"> लॉगिन </string>
+
+        <string name = "laws"> Application Laws: \n \n \n * फोन नंबर या बाहरी लिंक के आदान-प्रदान को रोकता है। \n * आवेदन के बाहर कॉल अनुरोध रोकता है।
+    \n * बातचीत में अपमान या अपशब्द कहने से रोकता है।
+    \n * अश्लील चित्रों को देखने से रोकता है।
+    \n * आवेदन मजेदार विवाह या प्रथागत विवाह के आवेदन के लिए नहीं है।
+    \n * आवेदन तथाकथित अस्थायी विवाह का अनुरोध करने के लिए नहीं है।
+    \n * गंदे चैट या नेट न चैट करें
+    साइन अप करने से पहले, क्या आप नियम और शर्तों, पात्रता से सहमत हैं?
+\n * यूज़रनेम में प्रतीकों या संख्याओं का उपयोग न करें।
+ \n * 18 के तहत उपयोगकर्ता को स्वीकार नहीं करते।
+\n * यह आयु उपलब्ध नहीं है। 70 से ऊपर।
+\n * उपयोगकर्ता नाम कम से कम 6 अक्षर होना चाहिए।
+\n * पासवर्ड कम से कम 6 अक्षर का होना चाहिए।
+\n * सभी प्रविष्टियाँ खाली नहीं होनी चाहिए।
+\n * यादृच्छिक उपयोगकर्ता नाम का उपयोग न करें।
+\n * सभी informations वास्तविक होना चाहिए।
+\n * अनुचित तस्वीरें।
+\n * उपयोगकर्ता कम उम्र का है।
+\n * डॉन को स्वीकार नहीं करते।
+\n * नकली तस्वीरों का उपयोग न करें।
+बातचीत के दौरान आक्रामक शब्दों का उपयोग न करें।
+    </string>
+
+    <string name = "policy_accept"> साइन अप करने के लिए एप्लिकेशन गोपनीयता नीति पढ़ें और स्वीकार करें </string>
+        <string name = "need_acceplt"> आपको साइन अप करने के लिए गोपनीयता नीति पढ़ने और स्वीकार करने की आवश्यकता है </string>
+        <string name = "laws_tv"> गोपनीयता नीति </string>
+        <string name = "Authentication_seccess"> प्रमाणीकरण सफलता </string>
+        <string name = "sign_in_with_facebook"> फेसबुक के साथ लॉगिन करें </string>
+        <string name = "or"> या </string>
+        <string name = "eror_data"> डेटा में त्रुटि। </string>
+        <string name = "underage"> आपकी उम्र 18 वर्ष से कम है। </string>
+        <string name = "plus70"> यह आयु उपलब्ध नहीं है। </string>
+        <string name = "usernale_error"> उपयोगकर्ता नाम 6 वर्णों से अधिक होना चाहिए </string>
+        <string name = "pp"> गोपनीयता नीति </string>
+        <string name = "check_username_digi"> उपयोगकर्ता नाम का उपयोग न करें। </string>
+        <string name = "check_dymbol_username"> उपयोगकर्ता नाम का उपयोग नहीं करते। </string>
+
+    <string name = "write_a_message"> एक संदेश लिखें </string>
+
+        <string name = "abuse_of_content"> सामग्री का दुरुपयोग </string>
+        <string name = "report_abuse_contnat"> सामग्री के दुरुपयोग की रिपोर्ट करें </string>
+        <string name = "report_abuse_description"> क्लिक करें (भेजें) यदि:
+        \ n \ n * वह आपको परेशान करता है।
+        \ n * s वह अश्लील चित्र का उपयोग करता है।
+        \ n * (s) वह आपको अपमानजनक संदेश भेजता है </string>
+        <string name = "send"> SEND </string>
+        <string name = "send_succes"> सफलतापूर्वक भेजें </string>
+        <string name = "cancel"> रद्द करें </string>
+        <string name = "age"> आयु </string>
+        <string name = "gender"> लिंग </string>
+        <string name = "profiefl"> प्रोफाइल </string>
+        <string name = "anonymously"> गुमनाम रूप से </string>
+        <string name = "upload_image_pp">
+        एक्स अनुचित तस्वीरें।
+        \n X जातिवादी तस्वीरें।
+        \n X धार्मिक जातीय तस्वीरें।
+        \n X हथियार तस्वीरें।
+        \n X अश्लील तस्वीरें
+        \n X सेक्सी तस्वीरें।
+        \n X हिंसा तस्वीरें।
+        \n X इमेज में रक्त होता है।
+    </string>
+    <string name = "upload"> Upload </string>
+        <string name = "risk_deletaccount"> आप अपना खाता हटाने का जोखिम उठाते हैं </string>
+        <string name = "warning"> चेतावनी </string>
+        <string name = "select_gallery"> गैलरी चुनें </string>
+        <string name = "image_upload"> छवि अपलोड ..... </string>
+        <string name = "error_in_uploding_image"> थंबनेल अपलोड करने में त्रुटि </string>
+        <string name = "success_upload_image"> सक्सेस अपलोडिंग </string>
+        <string name = "waiting"> प्रतीक्षा कर रहा है … </string>
+        <string name = "your_imagenoyapp"> आपकी छवि स्वीकृत नहीं है। </string>
+        <string name = "you_may_lose_your_account_in_case"> यदि आप अपलोड करते हैं तो आप अपना खाता खो सकते हैं: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> मैं वादा करता हूं कि मैंने उपरोक्त चित्रों से कुछ भी अपलोड नहीं किया है </string>
+        <string name = "menu"> मेनू </string>
+        <string name = "log_out"> लॉग आउट करें </string>
+        <string name = "choose_app_share"> एप्लिकेशन चुनें: </string>
+        <string name = "share_app"> मैं आपको नए लोगों से मिलने के लिए रैंडोचैट एप्लिकेशन इंस्टॉल करने के लिए आमंत्रित करता हूं। </string>
+        <string name = "rate_app"> रेट ऐप </string>
+        <string name = "trt"> आप कनेक्टेड नहीं हैं </string>
+        <string name = "share_appmenu"> शेयर ऐप </string>
+        <string name = "regsecc"> सफलतापूर्वक पंजीकरण करें </string>
+
+        <string name = "dbauthf"> Facebook प्रमाणीकरण विफल। </string>
+        <string name = "athseccfb"> फेसबुक की सफलता के साथ प्रमाणीकरण। </string>
+        <string name = "lcancl"> लॉगिन रद्द करें </string>
+        <string name = "wsin"> प्रतीक्षा साइन इन… </string>
+        <string name = "cosishfn"> Signin जारी रखें </string>
+        <string name = "nextt"> अगला </string>
+        <string name = "subscriptions"> सदस्यताएँ </string>
+        <string name = "bilical"> बिलिंग रद्द </string>
+        <string name = "subseccf"> सदस्यता सफलतापूर्वक </string>
+        <string name = "yorsbc"> आप पहले से ही सब्सक्राइब कर चुके हैं </string>
+        <string name = "remove_all_ads_n_unlimited_search_video_chat"> - सभी विज्ञापन निकालें। \ n- असीमित खोज वीडियो चैट। </string>
+        <string name = "free_search_video_chat_coins"> नि: शुल्क खोज वीडियो चैट सिक्के </string>
+
+        <string name = "dsd"> गुमनाम रूप से </string>
+        <string name = "change_language"> भाषा बदलें </string>
+        <string name = "arabic"> अरबी </string>
+        <string name = "german"> जर्मन </string>
+        <string name = "spanish"> स्पेनिश </string>
+        <string name = "french"> French </string>
+        <string name = "portuguese"> पुर्तगाली </string>
+        <string name = "english"> अंग्रेजी </string>
+        <string name = "save"> Save </string>
+        <string name = "change_lang_sucs"> भाषा को सफलतापूर्वक बदलें </string>
+        <string name = "russian"> Russian </string>
+    <string name = "turkish"> तुर्की </string>
+         <string name = "hindi"> हिंदी </string>
+    <string name="both">दोनों</string>
+
+
+
+
+</resources>

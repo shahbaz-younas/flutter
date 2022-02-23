@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg_radius_5"
+        android:gravity="center">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imgQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/txt_color"
+            android:visibility="visible"
+            app:shapeAppearanceOverlay="@style/AppShapeAppearance.MediumComponent" />
+
+        <ImageView
+            android:id="@+id/imgNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgQuestion"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:layout_toStartOf="@+id/imgZoom"
+            android:visibility="gone"
+            android:padding="3dp"
+            app:srcCompat="@drawable/ic_note"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imgZoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/imgQuestion"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_zoom"
+
+            tools:ignore="ContentDescription" />
+
+        <ScrollView
+            android:id="@+id/queScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/img_height">
+
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/margin_dp"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_10"
+                android:text="@string/app_name"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_18" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvImgQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp"
+        android:gravity="center"
+        android:padding="@dimen/padding_10"
+        android:text="@string/app_name"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/text_size_18"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,508 @@
+
+<em><!DOCTYPE HTML>
+<html>
+<head>
+<title>Qearner by wrteam.in</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <h4 id="logo"><a href="#">Q-Earner</a></h4>
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="#one" class="active">Introduction</a></li>
+      <li><a href='#appname' style="color:#1D6CBA">How to change the app name?</a></li>
+<li><a href='#privacy' style="color:#1D6CBA">How to change the Privacy Policy?</a></li>
+
+<li><a href='#packagename' style="color:#1D6CBA">How to change package name?</a></li>
+<li><a href='#admin' style="color:#1D6CBA">How to change server url to application?</a></li>
+<li><a href='#create_fcm' style="color:#1D6CBA">Create Firebase Project for Application.</a></li>
+<li><a href='#realtime' style="color:#1D6CBA">Realtime Database.</a></li>
+<li><a href='#emailLogin' style="color:#1D6CBA">Authenticate Using Email and Password on Android With Firebase.</a></li>
+<li><a href='#googleLogin' style="color:#1D6CBA">Authenticate Using Google Sign-In on Android With Firebase.</a></li>
+<li><a href='#facebookLogin' style="color:#1D6CBA">Authenticate Using Facebook Login on Android with Firebase.</a></li>
+<li><a href='#fcm' style="color:#1D6CBA">How to Integrate Firebase Cloud Messaging in app?</a></li>
+
+
+
+<li><a href='#levelComplete' style="color:#1D6CBA">How to config your values within app?</a></li>
+
+<li><a href='#appcountroll' style="color:#1D6CBA">How to Remove Admob Ads open feature from Application?</a></li>
+<li><a href='#constant' style="color:#1D6CBA">Want to costomize some value? like maximum questions per level etc..?</a></li>
+<li><a href='#languageMode' style="color:#1D6CBA">System Settings for Application.</a></li>
+<li><a href='#howtoaddads' style="color:#1D6CBA">How to add change Admob Banner/Rewarded id?</a></li>
+<li><a href="#support" style="color:#1D6CBA">Need Support?</a></li>
+<li><a href="#rating" style="color:#1D6CBA">Your Feedback</a></li>
+<li><a href="#contactus" style="color:#1D6CBA">Contact Us</a></li>
+    </ul>
+  </nav>
+
+</section>
+<div id="wrapper">	
+<div id="main">
+<section id="one">
+<div class="container">
+<header class="major">
+  <h2>Q-Earner</h2>
+</header>
+<div class="borderTop">
+  <div class="span-12 last">
+    <p class="prepend-top append-0">Thank you for purchasing code. It really means a lot and It's our pleasure to serve top-notch service to you. Thank you so much for choosing<a href="https://wrteam.in/" style='color:#3c55d1' target="_blank"> WRTeam </a>. If you have trouble with the code and documentation please contact to our Support Team <a href="#support" style="color:#3c55d1">Here</a></li>.
+	
+  </div>
+</div>
+
+<section id="appname">
+<div class="container">
+<br>
+<h2>How to change app name? </h2>
+<p>
+
+  <li>Open Android Studio > app > res > values > strings.xml</li>
+  <li>Enter your app name inside <b>"app_name"</b> string tag:<br />
+    <code>&lt;string name="app_name"&gt;<b>Qearner</b>&lt;/string&gt;</code></li>
+<li>You can also change other string text here.</li>
+</p>
+<a href="#appname"><img src="images/appname_1.png"></a>
+<div class="section_bdr"></div>
+
+</div>
+
+
+
+<section id="privacy">
+<div class="container">
+<br>
+<h2>How to change the Privacy Policy? </h2>
+<p>
+
+  <li>Open Android Studio > app > res > values > strings.xml</li>
+  <li>Enter your Privacy Policy inside <b>"term_privacy"</b> string tag:<br />
+    <code>&lt;string name="term_privacy"&gt;<b>By Logging / SigningUp in, you agree to our Terms of Service and Privacy Policy</b>&lt;/string&gt;</code></li>
+<li>Use Same Word in your Languge in<code>&lt;string name="privacy_policy"&gt;</code> And <code>&lt;string name="terms"&gt;</code> </li>
+<li><a style="color:#8B0000">If you Don't Use Same Word in your Language Application Will crash.</a></li>
+</p>
+<a href="#appname"><img src="images/privacy.png"></a>
+<div class="section_bdr"></div>
+
+</div>
+
+
+<section id="packagename">
+  <div class="container"> <br>
+    <h2>How to change the package name? </h2>
+    <p> You can change it easily from Android Studio. Here are the steps: 
+      You can change it easily from Android Studio. Here are the steps:
+ 
+      <li>In the Android pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</li>
+      <li>Your package directory will now be broken up in individual directories.</li>
+      <li>Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</li>
+      <li>Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</li>
+      <li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li>
+      <br>
+      Note: When renaming com in Android Studio, it might give a warning. In such case, selectRename All.
+  
+    </p>
+    <a href="#packagename"><img src="images/packagename_1.png"></a><br>
+    <br>
+    <a href="#packagename"><img src="images/packagename_2.png"></a><br>
+    <br>
+    <a href="#packagename"><img src="images/packagename_3.png"></a><br>
+    <br>
+    <a href="#packagename"><img src="images/packagename_4.png"></a><br>
+    <br>
+    <a href="#packagename"><img src="images/packagename_5.png"></a><br>
+    <br>
+
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+<section id="admin">
+  <div class="container">
+    <h2>How to set Admin panel url in Android and PHP</h2>
+
+	    <li>go to android >app >java > com.qearner.quiz > Constant.java  </li>
+						
+    <a href="#admin"><img src="images/admin.png"></a><br>
+    <br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+<section id="create_fcm">
+  <div class="container">
+    <h2>Create Firebase Project for Application.</h2>
+ 
+	    <li>We need Firebase project for <b>Firebase PushNotification, Google Sign-In and Facebook Login.</b> </li>
+		 <li>here is steps for craete project.</li><br>
+    <a href="#create_fcm"><img src="images/create1.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create2.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create3.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create4.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create5.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create6.png"></a><br><br>
+	<a href="#create_fcm"><img src="images/create7.png"></a><br><br>
+    <br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="realtime">
+  <div class="container">
+    <h2>Enable Realtime database in firebase console.</h2>
+	<li>Realtime database we use for battle feture.</li>
+	<li>Use Database Default Location (us-central1) If you change then Battle Mode Not Working.</></li><br>
+    <a href="#realtime"><img src="images/db0.png"></a><br><br>
+    <a href="#realtime"><img src="images/db.png"></a><br><br>
+	<li><a style="color:#8B0000">Realtime database rules must be true like below.because if user dont have read and right permission then they cannot play battle game.</a></li><br>
+    <a href="#realtime"><img src="images/db1.png"></a><br><br> 
+	<br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+<section id="emailLogin">
+  <div class="container">
+    <h2>Authenticate Using Email and Password on Android With Firebase.</h2>
+    
+	 <li>First of all we have to enable <b>Google Sign-In</b> method in firebase console.</li>
+		<li>Now open your project in firebase console.</li>
+		<li>In the Firebase console, open the Auth section.</li>
+		<li>On the Sign in method tab, enable the Email/password sign-in method and click Save.</li>
+  
+    <a href="#emailLogin"><img src="images/email_login1.png"></a><br><br>
+    <a href="#emailLogin"><img src="images/email_login2.png"></a><br><br>
+<h4>Change Sendder Name and Subject for verify email and reset Password.</h4>
+    <a href="#emailLogin"><img src="images/sub_1.png"></a><br><br>
+    <a href="#emailLogin"><img src="images/sub_2.png"></a><br><br>
+    <br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+
+<section id="googleLogin">
+  <div class="container">
+    <h2>Authenticate Using Google Sign-In on Android With Firebase.</h2>
+	
+    <li>First of all we have to enable <b>Google Sign-In</b> method in firebase console.</li>
+		<li>Now open your project in firebase console.</li>
+	<a href="#googleLogin"><img src="images/google_1.png"></a><br><br>
+	<a href="#googleLogin"><img src="images/google_2.png"></a><br><br>
+	
+                      
+
+		
+		        <li>Do This setting for get SHA-1 KEY goto File ---> Setting ---> Experimental Unchecked below setting.</li>
+		            <a href="#googleLogin"><img src="images/settingexperi.png"></a><br><br>
+			<li>If you haven't yet specified your app's SHA-1 & SHA-256 fingerprint, do so from the Settings page of the Firebase console.</li>
+			 <a href="#googleLogin"><img src="images/sha_1.png"></a><br><br> 
+			 <a href="#gooleLogin"><img src="images/google_5.png"></a><br><br>
+	   	  <li>After you integrate Google Sign-In, your LoginActivity has code for login you don't have to add anything extra.</li>
+		  <li>If you want to read code for google sign-in for android you can read here. </li>
+		  <li> <a href="https://developers.google.com/identity/sign-in/android/sign-in" target="_blank">Steps for Integrating Google Sign-In into Your Android App</a>
+	  <li><font color="green">Refer this video for Google sign-in.</font></li>
+	  <iframe width="700" height="500"src="https://www.youtube.com/embed/FpXhZICPVZA?autoplay=0"></iframe>
+	 <br> <b>Note</b>
+	 <li>There was <b>three</b> type of SHA-1.</li>
+	 <ul>
+	 <li><b>Debug SHA-1 : </b> you can get this sha from your android stuido.</li>
+	 <li><b>Release SHA-1 :</b> when you create keystore(.jks) file for generate sign apk. you can get release sha from your key store file.
+	 Use this Desktop App for get release sha from keystore file. <a href="https://keystore-explorer.org/" target="_blank">KeyStore Explorer.</a>
+	 Add this sha in your firebase project when you test realese apk.</li>
+	 <li><b>Sign SHA-1:</b>You have add this sha when you publish your app on playstore. You can get this sign sha from your PlayConsole. Without Sign sha your google login not work when your app published on PlayStore.</li>
+	 <li>For App signing certificate  go to > Play Console > Select your App > Release Management > App Signing </li>
+	 <br><a href="#gooleLogin"><img src="images/singing.png"></a><br><br>
+	</ul>
+	
+    <div class="section_bdr"></div>
+  </div>
+</section>
+<section id="facebookLogin">
+  <div class="container">
+
+    <h2>Authenticate Using Facebook Login on Android with Firebase.</h2>
+	 <ul>
+  <li>first create project for your application , go to  <a href="https://developers.facebook.com/" target="_blank">Facebook for Developers</a></li>
+ <li> Go to Facebook Quick Start Integrate the Facebook SDK</li>
+	    <li>On the <a href="https://developers.facebook.com/" target="_blank">Facebook for Developers</a> site, get the <b>App ID</b> and an <b>App Secret</b> for your app. </li>
+		<li> In the <a href="https://console.firebase.google.com/u/0/" target="_blank">Firebase console</a>, open the <b>Auth</b> section. Enable Facebook Login.</li>
+		 <li>On the <b>Sign in method</b> tab, enable the <b>Facebook</b> sign-in method and specify the <b>App ID</b> and <b>App Secret</b> you got from Facebook.</li>
+			    <a href="#facebookLogin"><img src="images/fb0.png"></a><br><br>
+	
+		 <li>Then, make sure your <b>OAuth redirect URI</b> (e.g. my-app-12345.firebaseapp.com/__/auth/handler) is listed as one of your <b>OAuth redirect URIs</b> in your Facebook app's settings page on the <a href="https://developers.facebook.com/" target="_blank">Facebook for Developers</a> site in the <b>Product Setting > Facebook Login</b> config </li>
+	
+		
+		 <b>Edit Your Resources and Manifest</b>
+		 <li>Create strings for your Facebook app ID and for those needed to enable Chrome Custom Tabs. Also, add FacebookActivity to your Android manifest.</li>
+		 <li>Open your app >res >values >strings.xml file.</li>
+  
+    <a href="#facebookLogin"><img src="images/fb3.png"></a><br><br>
+	
+
+	<li>Associate Your Package Name and Default Class with Your App</li>
+
+	<li>Provide the Development and Release Key Hashes for Your App</li>
+	<li>To ensure the authenticity of the interactions between your app and Facebook, you need to supply us with the Android key hash for your development environment. If your app has already been published, you should add your release key hash too.</li>
+		    <a href="#facebookLogin"><img src="images/fb5.png"></a><br><br>
+	<b>Generating a Development Key Hash</b>
+	<ol>
+	<li> We will use SHA-1 key to generate hashkey for facebook login.</li>
+		<li>you can generate hash online. Here is external link for generate key has for facebook login.<a href="http://tomeko.net/online_tools/hex_to_base64.php" target="_blank">Key hash Genrate Link</a></li>
+	 <br><a href="#gooleLogin"><img src="images/hash_key1.png"></a><br><br> 
+	 <br><a href="#gooleLogin"><img src="images/hash_key2.png"></a><br><br>
+	<br>
+
+	</ol>
+	 <li><font color="green">Refer this video for Facebook Login.</font></li>
+	  <iframe width="700" height="500"src="https://www.youtube.com/embed/vO2hwOB29wQ?autoplay=0"></iframe>
+	
+ </ul>
+    <div class="section_bdr"></div>
+  </div>
+</section>
+
+
+
+
+
+<section id="fcm">
+  <div class="container"> <br>
+    <h2>How to Integrate Firebase Cloud Messaging in app?</h2>
+    <p style=" margin-bottom:0px !important"> <b>Integrating Firebase Cloud Messaging</b></br>
+   
+<li>For FCM Notification first you have to register your application with firebase.<li><a href='#create_fcm'>Create Firebase Project for Application.</a>  If you already created firebase project then you dont have to do that again.</li>
+		 <li>Firebase dependency, service class and all nacessary class are already included in project.</li>
+		 <li>So, you dont have to do extra code here.</li>
+		 <li>Just download <b>Google-service.json</b> and replace with existing file.</li>
+		 
+		  
+
+						  
+						  <h4>Sending Messages from PHP Backend</h4>
+						  <li>Add <b>Firebase Server Key</b> in notification setting. Get server key from your firebase project and set in panel.</li>
+						    	<br/><img src="images/notification1.png"></a><br/><br/>
+								  	<br/><img src="images/notification.png"></a><br/><br/>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+	
+
+
+
+<section id="levelComplete">
+  <div class="container">
+    <h2>Want to costomize some value? like how many correct answers you need to complete current level etc...?</h2>
+    
+	
+	    <li>go to android >app >java > com.qearner.quiz > Constant.java  </li>
+		 <li>Here we define  maximum correct answers you need to complete level, rewarded coin when level completed  , some static values and more. </li><br>
+
+
+    <a href="#levelComplete"><img src="images/constant.png"></a><br>
+    <br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="appcountroll">
+  <div class="container">
+    <h2>How to Remove Admob Ads open feature from Application?</h2>
+    
+	    <li>go to android >app >java > com.qearner.quiz > helper >AppController.java  </li>
+		 <li>Remove below image line your admob ads open will removed. </li>
+
+
+    <a href="#lock"><img src="images/appcountrol.png"></a><br>
+    <br>
+    </p>
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="constant">
+  <div class="container">
+    <h2>Constant</h2>
+    
+	  
+  <h4>How to change circular progress width, color, textSize etc?</h4>
+    
+	
+	    <li>We have two Indicator class in application CircleTimer.java and AudienceProgress.java. </li>
+		<li> Now Go to android > app> src > main > res > values > color.xml</li>
+		<li>Here you can set background color, progress color,width,strock width,  text attributes and many more.</li>
+		<li>In dimen.xml ,we set circle's hight and width.  </li>
+		 <img src="images/circle_constant.png"></a><br/><br>
+		   <h4>How to change Time , complete level configs, mark for correct and incorrect, textSize etc?</h4>
+    <a href="#constant"><img src="images/constant.png"></a><br><br>
+    <div class="section_bdr"></div>
+  </div>
+</section>
+
+<section id="languageMode">
+<div class="container">
+<br>
+<h2>System Settings for Application.</h2>
+ <li>Answer Display:= When User Give Wrong Answer You Can Enable and Disable Answer Show Or Not.</li>
+<li>Language Mode:= Enable and Disable Language from admin panel.</li>
+<li>Option E Mode:= Enable and Disable Opation E from admin panel</li>
+ <a href="#languageMode"><img src="images/language_mode.png"></a><br><br>
+
+ <li>App Link:= You have to set Your Application Playstore Link.</li>
+<li>More Apps Link := You Can set Your Developer Page link of Playstore. </li>
+<li>Shareapp Text:= You have to set Your Application Share Text.</li>
+ <a href="#languageMode"><img src="images/applink.png"></a><br><br>
+
+<li>You can change True and False Value.</li>
+ <a href="#languageMode"><img src="images/truefalse.png"></a><br><br>
+ 
+ <li>About Us:= Add Your Company Details It Will Reflect in Application About Us .</li>
+ <li>Instructions:= Add Your Quiz Instructions It Will Reflect in Application Instrucations</li>
+ <li>Privacy Policy:= Add Your Quiz Privacy Policy It Will Reflect in Application Privacy Policy</li>
+ <li>Terms Conditions:= Add Your Quiz Terms Conditions It Will Reflect in Application Terms of Service</li>
+ <a href="#languageMode"><img src="images/atip.png"></a><br><br>
+ 
+ 
+  <li>Force Update App:= Here you can Enable and Disable Forcefully Update Dailog.</li>
+ <li>Daily Quiz Mode:= Here you can Enable and Disable DailyQuiz button. </li>
+ <li>Contest Mode:= Here you can Enable and Disable Contest Button.</li>
+
+ <a href="#languageMode"><img src="images/systembtn.png"></a><br><br>
+ 
+ <h2>How to Change Coins value!.</h2>
+ 
+ <li>Per Coin:= Here you can change Paytm coin value how many coin have 1 rs.</li>
+ <li>Paypal per Coin:= Here you can change Paypal coin value how many coin have 1$. </li>
+ <li>True Answer:= Here you can give Each correct answer how many coins add.</li>
+<li>Penalty per Wrong Answer:= Here you can give Each Wrong answer how many coins Deduct.</li>
+<li>Refer Coin := Here you can give how many Coins get when user Refer.</li>
+<li>Earn Coin := Here you can give how many Coins get when Someone Refer you.</li>
+<li>Reward Coin := here you can give Rewards ads watch Coin.
+<li>Maximum Application Coin := Here you need to provide maximum value of Coins get User in onetime use of Application (if 90 max then put 100 Coins)</li>
+<li>Start Coin := Here you can give When user first time login then that much Coins they will get. (Startup Coins)</li>
+ <a href="#languageMode"><img src="images/customecoin.png"></a><br><br>
+<div class="section_bdr"></div>
+
+</div>
+</section>
+
+<section id="howtoaddads">
+<div class="container">
+<br>
+<h2>How to change admob id? </h2>
+<p>
+
+  <li>Open Android Studio > app > res > values > strings.xml</li>
+<li>You have to replace your live AdmobId with Test admobId.</li>
+</ol>
+</p>
+<a href="#howtoaddads"><img src="images/admobid.png"></a>
+<div class="section_bdr"></div>
+
+</div>
+</section>
+
+
+
+   <section id="support">
+  <div class="container"> <br>
+    <h2>Need Support?</h2>
+    <p>Its our pleasure to serve our service and support. please contact our support team.</p>
+    <p>Head of Customer Support : Kishan Mevada <a href="https://join.skype.com/invite/vSHBqBXIDPzO" target="_blank" style='color:#3c55d1'>Skype Name :  Kishan Mevada</a></p>
+	
+	<p>To help our customers, we constantly be in touch with every customer if they need any assistance regarding our product. 
+	We offer our customers a support from  <strong> Mon – Fri 9.00am to 6.00pm IST (GMT +5.30) – We are a Team located in India – Asia.</strong></p>
+
+	<p>Typically we reply our customers for all the questions and queries within 24 hours of time via comments, support forum or emails.</p>
+	
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+   <section id="rating">
+  <div class="container"> <br>
+    <h2>Your Feedback </h2>
+    <p>Dear valuable customer,
+	Thank you very much for choosing our product.
+	It's our pleasure to serve top-notch service to you.
+	Please give us your honest feedback that will help us to make a more strong and reliable product by click here <a href="https://codecanyon.net/user/wrteam/portfolio" style='color:#3c55d1' target="_blank">Rate Us</a>.
+	Thank you very much.</p>
+	
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+<section id="contactus">
+  <div class="container"> <br>
+    <h2>Contact Us</h2>
+    <p>WRTeam has creative and dedicated group of developers who are mastered in Apps Developments and Web Application Development with a niche in delivering quality solutions to customers across the globe.
+	   Contact us today to find out how we can help you or for freelance work.
+	<p>Visit Us : <a href="https://wrteam.in/" target="_blank"><span style="color:#0e8bcb;">https://wrteam.in</span> </a>
+	<p>Mail Us : info@wrteam.in</p>
+	<p>Thank you very much.</p>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <ul class="copyright">
+      <li>
+        <h3><a href="https://wrteam.in/" target="_blank"><span style="color:#0e8bcb;font-style:italic;font-size: 35px">WRTeam</span> </a>
+      </li>
+     
+    </ul>
+  </div>
+</section>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+<script src="assets/js/main.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>
+</em>

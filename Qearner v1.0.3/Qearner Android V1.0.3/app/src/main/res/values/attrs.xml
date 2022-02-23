@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTimer">
+
+        <!-- <attr name="progressColor" format="color" />
+         <attr name="progressBackgroundColor" format="color" />
+         <attr name="progressStrokeWidth" format="dimension" />
+
+         <attr name="textColor" format="color" />
+         <attr name="textSize" format="dimension" />
+
+         <attr name="formattingPattern" format="string|reference" />
+
+         <attr name="drawDot" format="boolean" />
+         <attr name="dotColor" format="color" />
+         <attr name="dotWidth" format="dimension" />
+
+         <attr name="startAngle" format="integer|reference" />
+
+         <attr name="direction" format="enum">
+             <enum name="clockwise" value="0" />
+             <enum name="counterclockwise" value="1" />
+         </attr>-->
+
+
+        <attr name="progressColor" format="color" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="progressStrokeWidth" format="dimension" />
+        <attr name="progressBackgroundStrokeWidth" format="dimension" />
+
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="formattingPattern" format="string|reference" />
+
+        <attr name="drawDot" format="boolean" />
+        <attr name="dotColor" format="color" />
+        <attr name="dotWidth" format="dimension" />
+
+        <attr name="startAngle" format="integer|reference" />
+
+        <attr name="direction" format="enum">
+            <enum name="clockwise" value="0" />
+            <enum name="counterclockwise" value="1" />
+        </attr>
+
+        <attr name="progressCap" format="enum">
+            <enum name="round" value="0" />
+            <enum name="butt" value="1" />
+        </attr>
+
+        <attr name="enableProgressAnimation" format="boolean" />
+
+        <attr name="fillBackground" format="boolean" />
+
+        <attr name="gradientEndColor" format="color|reference" />
+        <attr name="gradientType" format="enum">
+            <enum name="no_gradient" value="0" />
+            <enum name="linear" value="1" />
+            <enum name="radial" value="2" />
+            <enum name="sweep" value="3" />
+        </attr>
+
+
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+    <!--for scratch view-->
+    <declare-styleable name="ScratchView">
+        <attr name="overlay_image" format="reference" />
+        <attr name="tile_mode" format="string" />
+        <attr name="overlay_width" format="dimension" />
+        <attr name="overlay_height" format="dimension" />
+    </declare-styleable>
+
+  
+</resources>

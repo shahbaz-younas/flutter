@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/corner"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        >
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subscriptions"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/tvTitlePurchase"
+            android:textColor="@color/colorAccent"
+            />
+
+
+    <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_all_ads_n_unlimited_search_video_chat"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="10sp"
+        android:maxLines="3"
+        android:textColor="@android:color/darker_gray"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/corner"
+            android:padding="8dp"
+            android:id="@+id/ly1Week"
+            >
+
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:src="@drawable/premium_default"
+                tools:ignore="NestedWeights" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_week"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0$"
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:textColor="@color/colorGrayPure"
+                android:id="@+id/price1week"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/corner"
+            android:padding="8dp"
+            android:id="@+id/ly1month"
+            >
+
+
+            <ImageView
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_gravity="center"
+                android:src="@drawable/premium_default"
+                tools:ignore="NestedWeights" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_month"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0$"
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:textColor="@color/colorGrayPure"
+                android:id="@+id/price1Month"
+                />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/corner"
+            android:padding="8dp"
+            android:id="@+id/ly1LifeTime"
+            >
+
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:src="@drawable/premium_default"
+                tools:ignore="NestedWeights" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_life_time"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:maxLines="2"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0$"
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:textColor="@color/colorGrayPure"
+                android:id="@+id/priceLifeTime"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/border_box_barared_gray_highdp"
+        android:id="@+id/btnSuscription"
+        android:textColor="@color/colorBlue"
+        android:text="@string/subscriptions"
+        />
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_box_barared_gray_highdp"
+        android:id="@+id/btnCancelSubscription"
+        android:textColor="@color/colorBlue"
+        android:text="@string/cancel"
+        />
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

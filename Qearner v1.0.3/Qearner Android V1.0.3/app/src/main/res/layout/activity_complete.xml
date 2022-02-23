@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.qearner.quiz.activity.CompleteActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_30dp">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvResultMsg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_10dp"
+                        android:fontFamily="@font/museo_bold"
+                        android:gravity="center"
+                        android:text="@string/completed"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:id="@+id/tvVictoryMsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/museo_bold"
+                        android:gravity="center"
+                        android:text="@string/victory_"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                        android:textColor="@color/green" />
+
+                    <ImageView
+                        android:id="@+id/imgVictory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/margin_5dp"
+                        android:background="@drawable/victory"
+                        tools:ignore="ContentDescription" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:isIndicator="true"
+                        android:max="5"
+                        android:stepSize="0.01"
+                        android:theme="@style/RatingBar" />
+
+                    <include layout="@layout/lyt_result_complete" />
+                </LinearLayout>
+            </ScrollView>
+
+            <com.facebook.ads.NativeAdLayout
+                android:id="@+id/native_banner_ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp" />
+
+            <FrameLayout
+                android:id="@+id/adFrameLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20dp"
+                android:layout_marginEnd="@dimen/margin_20dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPlayAgain"
+                    style="@style/MyCustomMaterialButton"
+
+                    android:onClick="PlayAgain"
+                    android:padding="@dimen/margin_dp"
+                    android:text="@string/play_again" />
+
+
+                <TextView
+
+                    style="@style/MyTextViewButton"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:onClick="ShareScore"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="@string/share_score" />
+
+                <TextView
+
+                    style="@style/MyTextViewButton"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:onClick="RateApp"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="@string/rate_app" />
+
+                <TextView
+
+                    style="@style/MyTextViewButton"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:onClick="Home"
+                    android:padding="@dimen/margin_20dp"
+                    android:text="@string/home" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/celebrationAnim"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/celebration" />
+</RelativeLayout>

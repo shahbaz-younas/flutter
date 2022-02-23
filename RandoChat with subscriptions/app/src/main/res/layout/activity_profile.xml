@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:id="@+id/lyiformation"
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    >
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgvSetting"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/portrait_placeholder"
+                        app:civ_border_color="@color/colorWhite"
+                        app:civ_border_width="1.5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:src="@drawable/change_imageprofile"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:id="@+id/btnChangeImage"
+                        android:visibility="visible"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/imageProfile"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    >
+
+
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                        android:id="@+id/tvUsernameSetting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/username"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/lybtn"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/anonymously"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        />
+                    <com.kyleduo.switchbutton.SwitchButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/swtAnuonomosly"
+                        android:layout_gravity="center"
+                        app:kswTintColor="@color/whiteLow"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorBlue"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    >
+
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_margin="5dp"
+                        android:text="@string/age"
+                        />
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvAge"
+                        android:textSize="17sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorWhite"
+                        android:lines="1"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    >
+
+
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gender"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_margin="5dp"
+                        />
+                    <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvGenderProfile"
+                        android:textSize="17sp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorWhite"
+                        android:lines="1"
+                        android:maxLines="1"
+                        />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorWhite"/>
+
+                <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLanguageChange"
+                    android:background="@drawable/corner_message"
+                    android:text="@string/change_language"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorBlueTwo"
+                    />
+
+            </LinearLayout>
+
+<!--            <com.google.android.ads.nativetemplates.TemplateView-->
+<!--                android:id="@+id/my_template_profile"-->
+<!--                app:gnt_template_type="@layout/gnt_medium_template_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                />-->
+
+            <FrameLayout
+                android:id="@+id/fl_adplaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

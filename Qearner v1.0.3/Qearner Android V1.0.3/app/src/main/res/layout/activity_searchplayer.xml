@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/random_battle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/txt_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_30dp"
+            android:gravity="center"
+            android:text="@string/random_battle_msg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/txt_color" />
+
+
+        <LinearLayout
+            android:id="@+id/lytTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="01:00"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
+                android:textColor="@color/txt_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvWaitMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Waiting_for_opponent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/txt_color" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bottom_curve_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.qearner.quiz.UI.CircleImageView
+                    android:id="@+id/imgPlayer1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/app_name"
+                    app:civ_border_color="@color/card_color"
+                    app:civ_border_width="@dimen/margin_5dp"
+                    app:srcCompat="@drawable/ic_profile" />
+
+                <TextView
+                    android:id="@+id/tv_player1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/museo_bold"
+                    android:gravity="center"
+                    android:text="@string/player_1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/txt_color" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgVs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/ic_vs" />
+
+
+            <LinearLayout
+                android:id="@+id/lyt2Player2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.qearner.quiz.UI.CircleImageView
+                    android:id="@+id/imgPlayer2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    app:civ_border_color="@color/card_color"
+                    app:civ_border_width="@dimen/margin_5dp"
+                    app:srcCompat="@drawable/ic_profile" />
+
+                <TextView
+                    android:id="@+id/tv_player2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/museo_bold"
+                    android:gravity="center"
+                    android:text="@string/player_2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/txt_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSearchPlayer"
+            style="@style/MyCustomMaterialButton"
+            android:layout_margin="@dimen/margin_30dp"
+            android:padding="@dimen/margin_dp"
+            android:text="@string/search_player" />
+    </LinearLayout>
+
+
+</RelativeLayout>

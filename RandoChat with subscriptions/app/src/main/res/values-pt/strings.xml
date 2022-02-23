@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "_1_week"> 1 semana </string>
+    <string name = "_1_month"> 1 mês </string>
+    <string name = "_life_time"> Ilimitado </string>
+
+    <string name = "start_chat"> Iniciar bate-papo </string>
+        <string name = "searching"> Pesquisando… </string>
+        <string name = "stop"> Parar </string>
+        <string name = "select_gender"> Procurando por: </string>
+        <string name = "woman"> Menina </string>
+        <string name = "man"> Cara </string>
+        <string name = "sex"> Sexo: </string>
+        <string name = "yourage"> Sua idade: </string>
+        <string name = "username"> Nome de usuário </string>
+        <string name = "your_age"> Sua idade </string>
+        <string name = "female"> Menina </string>
+        <string name = "male"> Cara </string>
+        <string name = "Authentication_failed"> Falha na autenticação. </string>
+        <string name = "writeusername"> Escreva seu nome de usuário </string>
+        <string name = "badconnection"> Sua qualidade de conexão é ruim. Tente novamente </string>
+        <string name = "login"> Login </string>
+
+        <string name = "laws"> Leis de aplicação:
+        \n \n \n * Impede a troca de números de telefone ou links externos.
+        \n * Impede a solicitação de chamada fora do aplicativo.
+        \n * Evita insultos ou xingamentos na conversa.
+        \n * Impede a visualização de imagens pornográficas.
+        \n * O aplicativo não é para a aplicação de casamento divertido ou casamento costumeiro.
+        \n * O aplicativo não deve solicitar o chamado casamento temporário.
+        \n * Chat não sujo ou rede de bate-papo
+        \n
+    Antes de se inscrever, você concorda com os Termos e Condições, Elegibilidade?
+\n * Não use símbolos ou números no nome de usuário.
+\n * Não aceita usuários menores de 18 anos.
+\n * Esta idade não está disponível. acima de 70.
+\n * O nome do usuário deve ter pelo menos 6 caracteres.
+\n * A senha deve ter pelo menos 6 caracteres.
+\n * Todas as entradas não devem estar vazias.
+\n * Não use nome de usuário aleatório.
+\n * Todas as informações devem ser reais.
+\n * fotos inadequadas.
+\n * O usuário é menor de idade.
+\n * Não aceita spam.
+\n * Não use fotos falsas.
+\n * Não use palavras ofensivas durante as conversas.
+    </string>
+
+        <string name = "policy_accept"> Leia e aceite a política de privacidade do aplicativo para se inscrever </string>
+        <string name = "need_acceplt"> Você precisa ler e aceitar a política de privacidade para se inscrever </string>
+        <string name = "laws_tv"> Política de Privacidade </string>
+        <string name = "Authentication_seccess"> Sucesso na autenticação </string>
+        <string name = "sign_in_with_facebook"> Entre com o Facebook </string>
+        <string name = "or"> Ou </string>
+        <string name = "eror_data"> Erro nos dados. </string>
+        <string name = "underage"> Você tem menos de 18 anos. </string>
+        <string name = "plus70"> nesta idade não disponível. </string>
+        <string name = "usernale_error"> o nome do usuário deve ter mais de 6 caracteres </string>
+        <string name = "pp"> Política de Privacidade </string>
+        <string name = "check_username_digi"> Não use números no nome de usuário. </string>
+        <string name = "check_dymbol_username"> Não use símbolos no nome de usuário. </string>
+
+
+
+
+        <string name = "write_a_message"> Escreva uma mensagem </string>
+
+        <string name = "abuse_of_content"> Abuso de conteúdo </string>
+        <string name = "report_abuse_contnat"> Denunciar abuso de conteúdo </string>
+        <string name = "report_abuse_description"> Clique em (ENVIAR) se:
+        \n \n * (s) ele o incomoda.
+        \n * (s) ele usa imagens de pornografia.
+        \n * (s) ele envia mensagens abusivas </string>
+        <string name = "send"> ENVIAR </string>
+        <string name = "send_succes"> Enviar com sucesso </string>
+        <string name = "cancel"> Cancelar </string>
+        <string name = "age"> Idade </string>
+        <string name = "gender"> Sexo </string>
+        <string name = "profiefl"> Perfil </string>
+        <string name = "anonymously"> Anonimamente </string>
+        <string name = "upload_image_pp">
+        X Fotos inadequadas.
+        \n X fotos racistas.
+        \n X fotos de etnia religiosa.
+        \n X fotos de armas.
+        \n X fotos pornográficas.
+        \n X fotos sensuais.
+        \n X fotos de violência.
+        \n X As imagens contêm sangue.
+    </string>
+        <string name = "upload"> Upload </string>
+        <string name = "risk_deletaccount"> Você corre o risco de excluir sua conta </string>
+        <string name = "warning"> Aviso </string>
+        <string name = "select_gallery"> Selecionar galeria </string>
+        <string name = "image_upload"> Upload de imagem ..... </string>
+        <string name = "error_in_uploding_image"> erro ao carregar a miniatura </string>
+        <string name = "success_upload_image"> Carregamento bem-sucedido </string>
+        <string name = "waiting"> Aguardando … </string>
+        <string name = "your_imagenoyapp"> Sua imagem não foi aprovada. </string>
+        <string name = "you_may_lose_your_account_in_case"> Você pode perder sua conta caso faça o upload: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> Eu prometo que não carregarei nada das imagens acima </string>
+        <string name = "menu"> Menu </string>
+        <string name = "log_out"> Sair </string>
+        <string name = "choose_app_share"> Escolha o aplicativo: </string>
+        <string name = "share_app"> Convido você a instalar o aplicativo randochat para conhecer novas pessoas. </string>
+        <string name = "rate_app"> Classifique o aplicativo </string>
+        <string name = "trt"> Você não está conectado </string>
+        <string name = "share_appmenu"> Compartilhar aplicativo </string>
+        <string name = "regsecc"> Registre-se com sucesso </string>
+
+        <string name = "dbauthf"> Falha na autenticação do Facebook. </string>
+        <string name = "athseccfb"> Autenticação com sucesso no Facebook. </string>
+        <string name = "lcancl"> Cancelar login </string>
+        <string name = "wsin"> Aguardando login … </string>
+        <string name = "cosishfn"> Continue SignIN </string>
+        <string name = "nextt"> Próximo </string>
+
+        <string name = "dsd"> Anonimamente </string>
+       
+        <string name = "change_language"> Alterar idioma </string>
+        <string name = "arabic"> Árabe </string>
+        <string name = "german"> Alemão </string>
+        <string name = "spanish"> Espanhol </string>
+        <string name = "french"> Francês </string>
+        <string name = "portuguese"> Português </string>
+        <string name = "english"> Inglês </string>
+        <string name = "save"> Salvar </string>
+        <string name = "change_lang_sucs"> Alterar idioma com sucesso </string>
+        <string name = "russian"> Russo </string>
+
+    <string name = "subscriptions"> Assinaturas </string>
+         <string name = "bilical"> Faturamento cancelado </string>
+         <string name = "subseccf"> Assinatura com sucesso </string>
+         <string name = "yorsbc"> Você já está inscrito </string>
+         <string name = "remove_all_ads_n_unlimited_search_video_chat"> - Remover todos os anúncios. \n- Chat de vídeo com pesquisa ilimitada. </string>
+         <string name = "free_search_video_chat_coins"> Pesquisa gratuita em moedas de bate-papo por vídeo </string>
+    <string name = "select_type_chat"> Bate-papo por texto ou vídeo: </string>
+    <string name = "turkish"> Turco </string>
+         <string name = "hindi"> Hindi </string>
+    <string name="both">ambos</string>
+
+</resources>

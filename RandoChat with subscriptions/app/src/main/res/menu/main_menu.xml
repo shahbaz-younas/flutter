@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/menu_main"
+        app:showAsAction="always"
+        android:title="@string/menu"
+        >
+
+        <menu
+            >
+
+            <item android:title="@string/rate_app"
+                android:id="@+id/rateapp"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_rateapp"
+                />
+
+            <item android:title="@string/share_appmenu"
+                android:id="@+id/shareapp"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_shareapp"
+                />
+
+            <item android:title="@string/pp"
+                android:id="@+id/pp"
+                android:icon="@drawable/ic_pp"
+                app:showAsAction="ifRoom"
+                />
+
+            <item android:title="@string/log_out"
+                android:id="@+id/log_out"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_log_out"
+
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/subscriptions"
+        android:id="@+id/subscrition"
+        android:icon="@drawable/premium"
+        app:showAsAction="always"
+        />
+
+    <item android:title="@string/abuse_of_content"
+        android:id="@+id/account"
+        android:icon="@drawable/account"
+        app:showAsAction="always"
+        />
+
+
+
+
+</menu>

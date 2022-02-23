@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_10dp"
+    android:layout_marginTop="@dimen/margin_10dp"
+    android:layout_marginEnd="@dimen/margin_10dp"
+    android:padding="@dimen/margin_5dp"
+    android:clickable="true"
+    android:background="@drawable/card_bg"
+    android:focusable="true">
+
+
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/museo_light"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textColor="@color/txt_color" />
+
+
+    <com.qearner.quiz.UI.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="@dimen/progress_h_w"
+        android:layout_height="@dimen/progress_h_w"
+        android:layout_margin="@dimen/margin_10dp"
+        android:layout_toEndOf="@+id/tvRank" />
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/tvScore"
+        android:layout_toEndOf="@+id/imgProfile"
+        android:text="@string/name"
+        android:fontFamily="@font/museo_light"
+        android:textColor="@color/txt_color" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:minWidth="70dp"
+        android:fontFamily="@font/museo_light"
+        android:textColor="@color/txt_color" />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,7 @@
+1. Import qearner.sql
+2. Edit file  ../library/crud.php
+change info your domain, database (name, user, passwd)
+3. Login:
+admin/admin123
+
+Note: Request PHP version >= 7.4.x

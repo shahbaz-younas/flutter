@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selfchallenge.NewSelfChallengeActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:padding="@dimen/margin_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/museo_semi_bold"
+                android:text="@string/select_category"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/txt_color" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cateRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp" />
+
+
+            <RelativeLayout
+                android:id="@+id/subCateLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvSubCate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/margin_dp"
+                    android:fontFamily="@font/museo_semi_bold"
+                    android:text="@string/select_sub_category"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/txt_color" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/subRecyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSubCate"
+                    android:layout_marginTop="@dimen/margin_10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/queLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvSelectQues"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_dp"
+                    android:fontFamily="@font/museo_semi_bold"
+                    android:text="@string/select_no_of_question"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/txt_color" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/questionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSelectQues"
+                    android:layout_marginTop="@dimen/margin_dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_dp"
+                android:fontFamily="@font/museo_semi_bold"
+                android:text="@string/select_time_period"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/txt_color" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/timeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
+                style="@style/MyCustomMaterialButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/option_btn_height"
+                android:fontFamily="@font/museo_bold"
+                android:onClick="StartChallenge"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/lets_start"
+                android:textSize="@dimen/text_size_22" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

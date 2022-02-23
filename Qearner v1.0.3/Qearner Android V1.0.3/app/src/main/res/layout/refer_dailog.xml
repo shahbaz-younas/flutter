@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_color_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg_radius_5"
+        android:backgroundTint="@color/card_color"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:src="@drawable/ic_refer_image"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:padding="7dp"
+            android:text="@string/apply_code"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtRefCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_25dp"
+            android:background="@drawable/card_bg"
+            android:backgroundTint="@color/card_color_light"
+            android:gravity="center"
+            android:hint="@string/ref_code"
+            android:textColorHint="@color/txt_color"
+            android:importantForAutofill="no"
+            android:inputType="none"
+            android:padding="@dimen/margin_dp"
+            android:textColor="@color/txt_color"
+             />
+
+
+        <LinearLayout
+            android:id="@+id/tryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/colorOnSurface"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/cancel"
+                android:textColor="@color/txt_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvApply"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/card_color_light"
+                android:gravity="center"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/apply"
+                android:textColor="@color/txt_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+

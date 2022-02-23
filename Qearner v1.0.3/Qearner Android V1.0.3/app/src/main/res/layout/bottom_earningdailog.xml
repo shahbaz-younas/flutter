@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_corner_curve_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp">
+
+        <TextView
+            android:id="@+id/enterTxt"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/enter_redeem_amt"
+            android:textColor="@color/colorOnSurface"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/relayPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp">
+
+            <TextView
+                android:id="@+id/txtDoller"
+                style="@style/TextAppearance.MaterialComponents.Headline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:text="@string/rs"
+                android:textColor="@color/txt_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEarn"
+                style="@style/TextAppearance.MaterialComponents.Headline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_toEndOf="@+id/txtDoller"
+                android:background="@color/transparent"
+
+                android:maxLength="10"
+                android:maxLines="1"
+                android:text="@string/zero"
+                android:textColor="@color/txt_color"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relayFirstpayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relayPrice"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:background="@drawable/answer_bg"
+            android:backgroundTint="@color/card_color_light"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/relayPaypal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_bg"
+                android:backgroundTint="@color/card_color"
+                android:padding="@dimen/margin_10dp">
+
+                <RelativeLayout
+                    android:id="@+id/relayBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/card_light_grey_bg"
+                    android:padding="@dimen/margin_5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_paypal"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:layout_toEndOf="@+id/relayBox"
+                    android:text="@string/paypal_act"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/txt_color" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayEnterDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relayPaypal"
+                android:padding="@dimen/padding_10"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/editPaypaldetails"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@color/transparent"
+                    android:hint="@string/enter_account_details"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/txt_color"
+                    android:textColorHint="@color/gray"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relPaytm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relayFirstpayment"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:background="@drawable/answer_bg"
+            android:backgroundTint="@color/card_color_light">
+
+            <RelativeLayout
+                android:id="@+id/relayPaytm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_bg"
+                android:backgroundTint="@color/card_color"
+                android:padding="@dimen/margin_10dp">
+
+                <RelativeLayout
+                    android:id="@+id/relayBox2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/card_light_grey_bg"
+                    android:padding="@dimen/margin_5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_paytm"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:layout_toEndOf="@+id/relayBox2"
+                    android:text="@string/paypal_act"
+                    android:textColor="@color/txt_color" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayEnterDetails2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relayPaytm"
+                android:padding="@dimen/padding_10"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/editPaypaldetails2"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@color/transparent"
+                    android:hint="@string/enter_account_details"
+                    android:inputType="number"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/txt_color"
+                    android:textColorHint="@color/gray"
+                    android:textStyle="bold"
+                    android:importantForAutofill="no" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relPaytm"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/museo_semi_bold"
+            android:gravity="center"
+            android:padding="@dimen/margin_dp"
+            android:text="@string/redeem_request"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textColor="@color/bg_color"
+            android:textStyle="bold"
+            app:rippleColor="@color/ripple_color" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

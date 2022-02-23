@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:padding="18dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyArabic"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_arab"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/arabic"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyGerman"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_germany"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/german"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lySpanish"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_spain"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/spanish"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyFrench"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_francaise"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/french"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyPortuguese"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_porto"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/portuguese"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyTurkish"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_russia"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/russian"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyenglish"
+        android:layout_margin="5dp"
+        android:background="@drawable/shadow"
+        android:padding="8dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/flag_english"
+            />
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/english"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyturki"
+            android:layout_margin="5dp"
+            android:background="@drawable/shadow"
+            android:padding="8dp"
+            >
+
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/flag_turkey"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/turkish"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyhindi"
+            android:layout_margin="5dp"
+            android:background="@drawable/shadow"
+            android:padding="8dp"
+            >
+
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/flag_india"
+                />
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hindi"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+
+
+    <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language"
+        android:gravity="center"
+        android:id="@+id/tvselectedlang"
+        android:textColor="@color/colorBlueTwo"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="20dp"
+    android:gravity="right"
+    >
+
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textColor="@color/colorBlueTwo"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btnCancelDialogLang"
+        android:background="@drawable/corner_message"
+        android:layout_marginEnd="5dp" />
+
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlueTwo"
+        android:id="@+id/btnSavelanguage"
+        android:background="@drawable/corner_message"
+        android:layout_marginStart="5dp" />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/GlamourWhite"
+    tools:context=".Views.MainActivity">
+
+    <include
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/ripback"
+        app:rb_color="@color/colorAccent"
+        app:rb_radius="32dp"
+        android:layout_weight="1"
+        app:rb_rippleAmount="6"
+        app:rb_duration="3000"
+        app:rb_scale="6">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/imgvUserRipBack"
+            android:src="@drawable/portrait_placeholder"/>
+
+        <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgvUserRipBack"
+            android:layout_centerInParent="true"
+            android:text="@string/searching"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tvSearching"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="25dp"
+            />
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        android:id="@+id/scvSearching"
+        android:visibility="visible"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/lySelect"
+            android:visibility="visible"
+            >
+
+            <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_type_chat"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/message"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:id="@+id/imgvChatText"
+                    />
+
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/webcam"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:id="@+id/imgvChatVideo"
+                    android:background="@color/colorPrimary"
+                    />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+
+
+
+                <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_gender"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_box_barared_gray_highdp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/imgvManSignup"
+                            android:src="@drawable/ic_gender_male_not_selected"
+                            />
+
+                        <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvMen"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/man"
+                            android:lines="1"
+                            android:textSize="18sp"
+                            android:checked="true"
+                            android:theme="@style/MyRadioButton"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:textColor="@color/colorPrimary"
+                            android:background="@drawable/corner"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/imgvWomanSignup"
+                            android:src="@drawable/ic_gender_female_not_selected"
+                            />
+
+                        <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvWoman"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/woman"
+                            android:lines="1"
+
+                            android:theme="@style/MyRadioButton"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:textColor="@color/colorRedBara"
+                            android:background="@drawable/corner_barba"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/imgvBoth"
+                            android:src="@drawable/bothgenders_noselected"
+                            />
+
+                        <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvBoth"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/both"
+                            android:lines="1"
+                            android:textSize="18sp"
+                            android:checked="true"
+                            android:theme="@style/MyRadioButton"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:textColor="@color/colorDeepPurple"
+                            android:background="@drawable/corner_purple"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.facebook.ads.NativeAdLayout
+                android:id="@+id/native_ad_container"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_chat"
+        android:id="@+id/btnStartChat"
+        android:layout_gravity="bottom"
+        android:paddingRight="20dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/whiteLow"
+        android:background="@drawable/border_ronded_blue"
+        />
+
+
+
+</LinearLayout>

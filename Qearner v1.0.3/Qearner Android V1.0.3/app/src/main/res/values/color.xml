@@ -1,0 +1,39 @@
+<resources>
+    <color name="black">#000000</color>
+
+    <color name="statusBarColor">#373d47</color>
+    <color name="colorPrimary">#1AFE83</color>
+    <color name="colorOnSurface">#5f636a</color>
+    <color name="colorPrimaryVariant">#0ea65d</color>
+
+    <color name="card_color_light">#373d47</color>
+    <color name="card_color">#282D37</color>
+    <color name="card_trans_color">#99282D37</color>
+
+    <color name="txt_color">#FFFFFF</color>
+    <color name="red">#fe5355</color>
+    <color name="green">#08cd76</color>
+    <color name="yellow">#fef300</color>
+    <color name="blue">#5087fb</color>
+    <color name="dark_yellow">#f69c01</color>
+    <color name="orange_yellow">#ed8000</color>
+    <color name="ripple_color">@color/colorPrimaryVariant</color>
+    <!--you can change Background color here-->
+    <color name="bg_color">#21222A</color>
+    <!-- background color of lifeline bg nd main page bottom bg colors -->
+    <color name="transparent">#00000000</color>
+    <color name="gray">#9F9F9F</color>
+    <color name="light_gray">#d4d4d4</color>
+
+
+    <color name="trans_green">#901afe83</color>
+    <color name="trans_cyan">#9000d4c6</color>
+    <color name="trans_purple">#905631d3</color>
+
+    <!-- default gradient text color-->
+    <color name="start">#1AFE83</color>
+    <color name="end">#039799</color>
+    <!--progressbar gradient color-->
+    <color name="progress_start">@color/start</color>
+    <color name="progress_end">@color/end</color>
+</resources>

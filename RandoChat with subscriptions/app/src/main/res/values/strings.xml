@@ -1,0 +1,170 @@
+ <resources>
+    <string name="app_name" translatable="false">RandoChat</string>
+
+     <!--  LOGIN FACEBOOK -->
+     <string name="facebook_app_id" translatable="false">1512926555535130</string>
+     <string name="fb_login_protocol_scheme" translatable="false">fb1512926555535130</string>
+
+     <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+     <!-- Get your own App ID at https://dashboard.agora.io/ -->
+     <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+     <string name="agora_app_id" translatable="false">4f6e5955ec9348f5b1f1e140d93483c4</string>
+
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false">#YOUR ACCESS TOKEN#</string>
+
+    <!-- PUT YOUR MERCHANT_KEY and LICENSE_KEY PURCHASES IN-APP  -->
+    <string name="LICENSE_KEY" translatable="false">PUT YOUR LICENSE KEY HERE</string>
+
+    <!--  PUT YOUR SUBSCRIBE ID CHANGE android.test.purchased to YOUR ID -->
+    <string name="SUBSCRIBE_ID_1_week" translatable="false">android.test.purchased</string>
+    <string name="SUBSCRIBE_ID_1_months" translatable="false">android.test.purchased</string>
+    <string name="SUBSCRIBE_ID_lifetime" translatable="false">android.test.purchased</string>
+
+
+     <!--  ADS ADMOB -->
+     <string name="BannerAdmobID" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="NativeAdmobID" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+     <string name="InterstitialAdAdmobID" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+     <!--  ADS FACEBOOK -->
+     <string name="NativeAds_Facebook" translatable="false">728146827632560_827238054390103</string>
+     <string name="Interstitial_FacebbokAds" translatable="false">728146827632560_833272517119990</string>
+     <string name="Banner_ads_facebook" translatable="false">IMG_16_9_APP_INSTALL#728146827632560_827277211052854</string>
+
+
+
+
+     <string name="_1_week">1 Week</string>
+        <string name="_1_month">1 Month</string>
+        <string name="_life_time">Unlimited</string>
+
+
+
+
+    <string name="start_chat">Start Chat</string>
+    <string name="searching">Searching…</string>
+    <string name="stop">Stop</string>
+    <string name="select_gender">Looking for :</string>
+    <string name="woman">Girl</string>
+    <string name="man">Guy</string>
+    <string name="select_type_chat">Text Or Video Chat :</string>
+
+    <string name="sex">Gender :</string>
+    <string name="yourage">Your age :</string>
+    <string name="username">Username</string>
+    <string name="your_age">Your age</string>
+    <string name="female">Girl</string>
+    <string name="male">Guy</string>
+
+    <string name="Authentication_failed">Authentication failed.</string>
+    <string name="writeusername">Write Your Username</string>
+    <string name="badconnection">Your Connection Quality is BAD Try again</string>
+    <string name="login">Login</string>
+
+    <string name="laws">Application Laws: \n\n\n* Prevents exchange of phone numbers or external links. \n* Prevents call request outside application. \n* Prevents insulting or cursing in conversation. \n* Prevents viewing of pornographic images. \n* Application is not for the application of fun marriage or customary marriage. \n* The application is not to request a so-called temporary marriage. \n* Not dirty chat or chat net\n
+    Before Sign Up, Do you agree to Terms and Conditions, Eligibility ?
+\n* Don\'t use symbols or numbers in username.
+\n* Don\'t accept user under 18.
+\n* This age isn\'t available. above 70.
+\n* Username should be at least 6 characters.
+\n* Password should be at least 6 characters.
+\n* All entries should be not empty.
+\n* Don\'t use random username.
+\n* All informations should be real.
+\n* Inappropriate Photos.
+\n* User is Underage.
+\n* Don\'t accept Spam.
+\n* Don\'t use fake photos.
+\n* Don\'t use offensive words during conversations.
+    </string>
+
+    <string name="policy_accept">Read and accept application privacy policy to sign up</string>
+    <string name="need_acceplt">You need to read and accept privacy policy to sign up</string>
+    <string name="laws_tv">Privacy Policy</string>
+    <string name="Authentication_seccess">Authentication success</string>
+    <string name="sign_in_with_facebook">Login with Facebook</string>
+    <string name="or">Or</string>
+    <string name="eror_data">Error in data.</string>
+    <string name="underage">You are under 18.</string>
+    <string name="plus70">this age not available.</string>
+    <string name="usernale_error">username must be greater than 6 characters</string>
+    <string name="pp">Privacy Policy</string>
+    <string name="check_username_digi">Don\'t use numbers in username.</string>
+    <string name="check_dymbol_username">Don\'t use symbols in username.</string>
+
+    <string name="write_a_message">Write a message</string>
+
+    <string name="abuse_of_content">Abuse of content</string>
+    <string name="report_abuse_contnat">Report abuse of content</string>
+    <string name="report_abuse_description">Click (SEND) if :
+        \n\n* (s)he bother you.
+        \n* (s)he use pornoghraphy images.
+        \n* (s)he send you abusive messages</string>
+    <string name="send">SEND</string>
+    <string name="send_succes">Send Successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="profiefl">Profile</string>
+    <string name="anonymously">Anonymously</string>
+    <string name="upload_image_pp">
+        X Inappropriate Photos.
+        \nX Racist Photos.
+        \nX Religious Ethnicity Photos.
+        \nX Weapons Photos.
+        \nX Pornographic photos.
+        \nX Sexy photos.
+        \nX Violence Photos.
+        \nX Images contain blood.
+    </string>
+    <string name="upload">Upload</string>
+    <string name="risk_deletaccount">You risk deleting your account</string>
+    <string name="warning">Warning</string>
+    <string name="select_gallery">Select Gallery</string>
+    <string name="image_upload">Image Upload.....</string>
+    <string name="error_in_uploding_image">error in uploading thumbnail</string>
+    <string name="success_upload_image">Success Uploading</string>
+    <string name="waiting">Waiting …</string>
+    <string name="your_imagenoyapp">Your image not approved.</string>
+    <string name="you_may_lose_your_account_in_case">You may lose your account in case you upload :</string>
+    <string name="i_promise_i_won_t_upload_anything_from_the_pictures_above">I promise I won\'t upload anything from the pictures above</string>
+    <string name="menu">Menu</string>
+    <string name="log_out">Log Out</string>
+    <string name="choose_app_share">Choose application :</string>
+    <string name="share_app">I invite you to install randochat application for meet new people. </string>
+    <string name="rate_app">Rate app</string>
+    <string name="trt">You are not Connected</string>
+    <string name="share_appmenu">Share app</string>
+    <string name="regsecc">Register Successfully</string>
+
+    <string name="dbauthf">Facebook Authentication failed.</string>
+    <string name="athseccfb">Authentication with Facebook success.</string>
+    <string name="lcancl">Login Cancel</string>
+    <string name="wsin">Waiting Sign in…</string>
+    <string name="cosishfn">Continue SignIN</string>
+    <string name="nextt">Next</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="bilical">Billing Canceled</string>
+    <string name="subseccf">Subscription Successfully</string>
+    <string name="yorsbc">You are already subscribed</string>
+    <string name="remove_all_ads_n_unlimited_search_video_chat">- Remove All Ads. \n- Search by gender.</string>
+    <string name="free_search_video_chat_coins">Free search video chat coins</string>
+
+    <string name="dsd">Anonymously</string>
+    <string name="change_language">Change Language</string>
+    <string name="arabic">Arabic</string>
+    <string name="german">German</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="english">English</string>
+    <string name="save">Save</string>
+    <string name="change_lang_sucs">Change language successfully</string>
+    <string name="russian">Russian</string>
+    <string name="turkish">Turkish</string>
+    <string name = "hindi"> Hindi </string>
+    <string name="both">Both</string>
+
+
+ </resources>

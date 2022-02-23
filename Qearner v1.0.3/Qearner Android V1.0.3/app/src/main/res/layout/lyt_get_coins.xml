@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_10dp"
+    android:background="@color/card_color"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_dp"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/museo_bold"
+        android:text="@string/get_free_coins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/txt_color" />
+
+    <RelativeLayout
+        android:id="@+id/parent_lyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_dp"
+        android:background="@drawable/answer_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="getScratchCoins"
+        android:padding="@dimen/margin_dp">
+
+        <RelativeLayout
+            android:id="@+id/imgLyt"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/answer_bg"
+            android:backgroundTint="@color/orange_yellow">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:elevation="5dp"
+                android:src="@drawable/coin_bg"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:layout_toEndOf="@+id/imgLyt">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/coinLyt"
+                android:ellipsize="end"
+                android:fontFamily="@font/museo_semi_bold"
+                android:lineSpacingExtra="4sp"
+                android:maxLines="2"
+                android:text="@string/free_coins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/txt_color" />
+
+
+            <TextView
+                android:id="@+id/tvMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTitle"
+                android:layout_marginTop="@dimen/margin_7dp"
+                android:layout_toStartOf="@+id/coinLyt"
+                android:text="@string/coin_msg"
+                android:textColor="@color/colorOnSurface"
+                android:textSize="@dimen/text_12sp" />
+
+            <LinearLayout
+                android:id="@+id/coinLyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/get_up_to"
+                    android:textColor="@color/colorOnSurface"
+                    android:textSize="@dimen/text_12sp" />
+
+                <TextView
+                    android:id="@+id/tvWinCoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:drawablePadding="@dimen/margin_7dp"
+                    android:padding="@dimen/margin_10dp"
+                    android:text="@string/zero"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/yellow"
+                    app:drawableEndCompat="@drawable/coin_bg" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

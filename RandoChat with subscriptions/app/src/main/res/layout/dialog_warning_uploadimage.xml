@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_complain"/>
+
+    <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warning"
+        android:layout_marginBottom="10dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        />
+
+
+    <com.rifcode.randochat.WidgetsFonts.TvUbuntuRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_may_lose_your_account_in_case"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+    <com.rifcode.randochat.WidgetsFonts.TvUbuntuBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image_pp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <com.rifcode.randochat.WidgetsFonts.ChbUbuntuRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/cbCheckImageUpload"
+        android:background="@drawable/border_ronded_blue"
+        android:text="@string/i_promise_i_won_t_upload_anything_from_the_pictures_above"
+        />
+
+    <com.rifcode.randochat.WidgetsFonts.BtnUbuntuBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:id="@+id/btnUpload"
+            android:background="@drawable/corner"
+            android:textStyle="bold"
+    />
+
+
+
+</LinearLayout>

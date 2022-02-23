@@ -1,0 +1,192 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/card_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>-->
+        <item name="colorSecondaryVariant">@color/colorPrimaryVariant</item>-->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+
+        <!--  color background . -->
+        <item name="android:colorBackground">@color/bg_color</item>
+        <item name="colorOnBackground">@color/light_gray</item>
+
+        <item name="colorOnError">@color/txt_color</item>
+        <item name="colorSurface">@color/card_color</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:fontFamily">@font/museo_regular</item>
+        <item name="fontFamily">@font/museo_regular</item>
+
+        <item name="textInputStyle">@style/AppTextField</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/AppShapeAppearance.LargeComponent</item>
+        <item name="android:overScrollMode">never</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        ...
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">@transition/change_image_transform
+        </item>
+        <item name="android:windowSharedElementExitTransition">@transition/change_image_transform
+        </item>
+        <item name="alertDialogTheme">@style/dialog</item>
+    </style>
+
+    <style name="dialog" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:layout_marginStart">@dimen/margin_7dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_10dp</item>
+    </style>
+    <style name="scratch_dialog" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:layout_marginStart">@dimen/margin_5dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_5dp</item>
+    </style>
+    <!--TextInput custom-->
+    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/focus_tint_list</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="android:textColor">@color/txt_color</item>
+        <item name="textStartPadding">@dimen/margin_dp</item>
+        <item name="textEndPadding">@dimen/margin_dp</item>
+
+        <item name="android:textColorHint">@color/colorOnSurface</item>
+
+        <item name="shapeAppearance">@style/AppShapeAppearance.MediumComponent</item>
+    </style>
+
+    <!--    <style name="MyCustomEditText" parent="Widget.AppCompat.EditText">
+            <item name="android:textColor">@color/txt_color</item>
+
+            <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:fontFamily">@font/museo_semi_bold</item>
+        <item name="fontFamily">@font/museo_semi_bold</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <!--Tab custom layout-->
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <!-- <item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <item name="tabIndicatorColor">@color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+
+    </style>
+
+    <!-- for text -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+
+        <item name="textAllCaps">false</item>
+    </style>
+    <!-- for text -->
+    <style name="MyCustomMaterialButton" parent="Widget.MaterialComponents.Button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/museo_semi_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/bg_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/ripple_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#D3D3D3</item>
+        <item name="colorControlActivated">#ffc922</item>
+    </style>
+    <style name="MyTextViewButton" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/museo_semi_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/txt_color</item>
+
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="rippleColor">@color/ripple_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+    </style>
+
+    <style name="MyLabelTextView" parent="Widget.AppCompat.TextView">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:background">@drawable/card_bg_radius_2dp</item>
+        <item name="rippleColor">@color/ripple_color</item>
+        <item name="android:textSize">@dimen/text_10sp</item>
+        <item name="android:paddingStart">@dimen/margin_5dp</item>
+        <item name="android:paddingEnd">@dimen/margin_5dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_5dp</item>
+
+
+    </style>
+
+    <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/margin_10dp</item>
+    </style>
+
+
+    <style name="AppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/margin_10dp</item>
+    </style>
+
+    <style name="myCustomImageShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/margin_5dp</item>
+    </style>
+
+    <style name="AppShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="android:topRightRadius">@dimen/margin_dp</item>
+        <item name="android:topLeftRadius">@dimen/margin_dp</item>
+    </style>
+
+</resources>

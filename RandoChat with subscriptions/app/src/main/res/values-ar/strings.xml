@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "_1_month"> شهر واحد </string>
+    <string name="_1_week">1 اسبوع</string>
+    <string name="_life_time">لا محدود</string>
+
+
+    <string name="start_chat">ابدأ الدردشة</string>
+    <string name="searching">يبحث…</string>
+    <string name="stop">قف</string>
+    <string name="select_gender">البحث عن :</string>
+    <string name="woman">فتاة</string>
+    <string name="man">شاب</string>
+    <string name="sex">جنس :</string>
+    <string name="yourage">عمرك :</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="your_age">عمرك</string>
+    <string name="female">فتاة</string>
+    <string name="male">شاب</string>
+    <string name="Authentication_failed">المصادقة فشلت.</string>
+    <string name="writeusername">اكتب اسم المستخدم الخاص بك</string>
+    <string name="badconnection">جودة الاتصال لديك سيئة حاول مرة أخرى</string>
+    <string name="login">تسجيل الدخول</string>
+
+    <string name="laws">قوانين التطبيق: \n\n\n* يمنع تبادل أرقام الهاتف أو الروابط الخارجية.
+        \n* يمنع طلب المكالمة خارج التطبيق.
+        \n* يمنع الإهانة أو الشتم في المحادثة.
+        \n* يمنع عرض الصور الإباحية.
+        \n* التطبيق ليس لتطبيق زواج مرح أو زواج عرفي.
+        \n* التطبيق ليس لطلب ما يسمى الزواج المؤقت.
+        \n* لا الدردشة القذرة أو شبكة الدردشة
+        \n قبل الاشتراك ، هل توافق على الشروط والأحكام والأهلية؟
+\n * لا تستخدم الرموز أو الأرقام في اسم المستخدم.
+\n * لا تقبل المستخدم تحت سن 18.
+\n * هذا العمر غير متوفر. فوق 70.
+\n * يجب ألا يقل اسم المستخدم عن 6 أحرف.
+\n * يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.
+\n * يجب ألا تكون جميع الإدخالات فارغة.
+\n * لا تستخدم اسم مستخدم عشوائي.
+\n * يجب أن تكون جميع المعلومات حقيقية.
+\n * صور غير لائقة.
+\n * المستخدم قاصر.
+\n * لا تقبل البريد العشوائي.
+\n * لا تستخدم الصور المزيفة.
+\n * لا تستخدم كلمات مسيئة أثناء المحادثات.
+    </string>
+
+    <string name = "policy_accept"> قراءة سياسة خصوصية التطبيق وقبولها للاشتراك </string>
+         <string name = "need_acceplt"> تحتاج إلى قراءة سياسة الخصوصية وقبولها للاشتراك </string>
+         <string name = "laws_tv"> سياسة الخصوصية </string>
+         <string name = "Authentication_seccess"> نجاح المصادقة </string>
+         <string name = "sign_in_with_facebook"> تسجيل الدخول باستخدام Facebook </string>
+         <string name = "or"> أو </string>
+         <string name = "eror_data"> خطأ في البيانات. </string>
+         <string name = "underage"> عمرك أقل من 18 عامًا. </string>
+         <string name = "plus70"> هذا العمر غير متاح. </string>
+         <string name = "usernale_error"> يجب أن يكون اسم المستخدم أكبر من 6 أحرف </string>
+         <string name = "pp"> سياسة الخصوصية </string>
+         <string name = "check_username_digi"> لا تستخدم الأرقام في اسم المستخدم. </string>
+         <string name = "check_dymbol_username"> لا تستخدم الرموز في اسم المستخدم. </string>
+
+         <string name = "write_a_message"> كتابة رسالة </string>
+
+
+
+    <string name = "abuse_of_content"> إساءة استخدام المحتوى </string>
+         <string name = "report_abuse_contnat"> الإبلاغ عن إساءة استخدام المحتوى </string>
+         <string name = "report_abuse_description"> انقر (إرسال) إذا:
+         \n \n * (s) يزعجك.
+         \n * (s) يستخدم الصور الإباحية.
+         \n * (s) يرسل لك رسائل مسيئة </string>
+         <string name = "send"> إرسال </string>
+         <string name = "send_succes"> الإرسال بنجاح </string>
+         <string name = "cancel"> إلغاء </string>
+         <string name = "age"> العمر </string>
+         <string name = "gender"> الجنس </string>
+         <string name = "profiefl"> الملف الشخصي </string>
+         <string name = "anonymously"> بشكل مجهول </string>
+         <string name = "upload_image_pp">
+         \n X صور غير لائقة.
+         \n X صور عنصرية.
+         \n X صور العرق الديني.
+         \n X صور أسلحة.
+         \n X صور إباحية.
+         \n X صور مثيرة.
+         \n X صور عنف.
+         \n X تحتوي الصور على دم. بشكل مجهول
+     </string>
+
+
+
+    <string name = "upload"> تحميل </string>
+        <string name = "risk_deletaccount"> أنت تخاطر بحذف حسابك </string>
+        <string name = "warning"> تحذير </string>
+        <string name = "select_gallery"> حدد المعرض </string>
+        <string name = "image_upload"> تحميل صورة ..... </string>
+        <string name = "error_in_uploding_image"> خطأ في تحميل الصورة المصغرة </string>
+        <string name = "success_upload_image"> نجاح التحميل </string>
+        <string name = "waiting"> قيد الانتظار … </string>
+        <string name = "your_imagenoyapp"> لم تتم الموافقة على صورتك. </string>
+        <string name = "you_may_lose_your_account_in_case"> قد تفقد حسابك في حالة تحميله: </string>
+        <string name = "i_promise_i_won_t_upload_anything_from_the_pictures_above"> أعدكم بأنني لن أحمل أي شيء من الصور أعلاه </string>
+        <string name = "menu"> القائمة </string>
+        <string name = "log_out"> تسجيل الخروج </string>
+        <string name = "choose_app_share"> اختر التطبيق: </string>
+        <string name = "share_app"> أدعوك لتثبيت تطبيق randochat لمقابلة أشخاص جدد. </string>
+        <string name = "rate_app"> تقييم التطبيق </string>
+        <string name = "trt"> أنت غير متصل </string>
+        <string name = "share_appmenu"> مشاركة التطبيق </string>
+        <string name = "regsecc"> التسجيل بنجاح </string>
+
+
+         <string name = "dbauthf"> فشلت مصادقة Facebook. </string>
+         <string name = "athseccfb"> المصادقة بنجاح Facebook. </string>
+         <string name = "lcancl"> إلغاء تسجيل الدخول </string>
+         <string name = "wsin"> في انتظار تسجيل الدخول … </string>
+         <string name = "cosishfn"> متابعة تسجيل الدخول </string>
+         <string name = "nextt"> التالي </string>
+
+         <string name = "dsd"> بشكل مجهول </string>
+         <string name = "change_language"> تغيير اللغة </string>
+         <string name = "arabic"> العربية </string>
+         <string name = "german"> الألمانية </string>
+         <string name = "spanish"> الإسبانية </string>
+         <string name = "french"> الفرنسية </string>
+         <string name = "portuguese"> البرتغالية </string>
+         <string name = "english"> الإنجليزية </string>
+         <string name = "save"> حفظ </string>
+         <string name = "change_lang_sucs"> تغيير اللغة بنجاح </string>
+         <string name = "russian"> الروسية </string>
+
+
+
+         <string name = "subscriptions"> الاشتراكات </string>
+         <string name = "bilical"> تم إلغاء الفاتورة </string>
+         <string name = "subseccf"> الاشتراك بنجاح </string>
+         <string name = "yorsbc"> أنت مشترك بالفعل </string>
+         <string name = "remove_all_ads_n_unlimited_search_video_chat"> - إزالة كافة الإعلانات.  - محادثة فيديو غير محدودة على شبكة البحث. </string>
+         <string name = "free_search_video_chat_coins"> البحث عن عملات دردشة الفيديو المجانية </string>
+
+    <string name = "select_type_chat"> الدردشة النصية أو المرئية: </string>
+    <string name = "turkish"> التركية </string>
+         <string name = "hindi"> الهندية </string>
+    <string name="both">كلاهما</string>
+
+</resources>

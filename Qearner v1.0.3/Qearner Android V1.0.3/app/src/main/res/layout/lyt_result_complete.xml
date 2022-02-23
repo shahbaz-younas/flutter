@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/result_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_color"
+    android:baselineAligned="false"
+
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/margin_30dp"
+    android:paddingBottom="@dimen/margin_30dp"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museo_light"
+                android:gravity="center"
+                android:text="@string/correct_ans"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_10sp" />
+
+            <TextView
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@drawable/border_green_filled"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center"
+
+                android:paddingStart="@dimen/margin_20dp"
+                android:paddingTop="@dimen/margin_7dp"
+                android:paddingEnd="@dimen/margin_20dp"
+                android:paddingBottom="@dimen/margin_7dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scoreLyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museo_light"
+                android:gravity="center"
+                android:text="@string/game_score"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_10sp" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@drawable/border_yellow_filled"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center"
+                android:paddingStart="@dimen/margin_20dp"
+                android:paddingTop="@dimen/margin_7dp"
+                android:paddingEnd="@dimen/margin_20dp"
+                android:paddingBottom="@dimen/margin_7dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.qearner.quiz.UI.GradientProgress
+            android:id="@+id/resultProgress"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_centerInParent="true"
+            app:direction="clockwise" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museo_light"
+                android:gravity="center"
+                android:text="@string/in_correct_ans"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_10sp" />
+
+            <TextView
+                android:id="@+id/wrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@drawable/border_red_filled"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center"
+
+                android:paddingStart="@dimen/margin_20dp"
+                android:paddingTop="@dimen/margin_7dp"
+                android:paddingEnd="@dimen/margin_20dp"
+                android:paddingBottom="@dimen/margin_7dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/coinLyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/museo_light"
+                android:gravity="center"
+                android:text="@string/earn_coin"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_10sp" />
+
+            <TextView
+                android:id="@+id/tvCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@drawable/border_blue_filled"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center"
+                android:paddingStart="@dimen/margin_20dp"
+                android:paddingTop="@dimen/margin_7dp"
+                android:paddingEnd="@dimen/margin_20dp"
+                android:paddingBottom="@dimen/margin_7dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                android:textColor="@color/blue" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

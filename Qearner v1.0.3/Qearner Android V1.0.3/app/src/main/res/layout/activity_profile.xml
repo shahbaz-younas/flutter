@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qearner.quiz.activity.ProfileActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/nameLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/lytBg"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:layout_marginBottom="@dimen/margin_dp"
+                    android:background="@drawable/circle_bg"
+                    android:padding="2dp"
+                    android:transitionName="imgProfile">
+
+                    <com.qearner.quiz.UI.CircleImageView
+                        android:id="@+id/imgProfile"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp" />
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fabProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        app:fabSize="mini"
+                        app:srcCompat="@drawable/ic_camera"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/imgEdit"
+                        android:fontFamily="@font/museo_bold"
+                        android:paddingBottom="@dimen/padding_10"
+                        android:textColor="@color/txt_color"
+                        android:textSize="@dimen/text_14sp" />
+
+                    <ImageView
+                        android:id="@+id/imgEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:onClick="EditUserProfile"
+                        android:src="@drawable/ic_edit" />
+
+                    <TextView
+                        android:id="@+id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvEmail"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/museo_bold"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvName"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/museo_bold"
+                        android:maxLines="1"
+                        android:textColor="@color/txt_color"
+                        android:textSize="@dimen/text_14sp" />
+
+                    <ImageView
+                        android:id="@+id/imgDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:onClick="DeleteUserProfile"
+                        android:src="@drawable/ic_baseline_delete_24" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@color/card_color_light" />
+
+            <TextView
+                android:id="@+id/txtCoinstore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="CoinStore"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/coinstore"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/coin_bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="UserStatistics"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/statistics"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_statistics" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="LeaderBoard"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/leaderboard"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_leaderboard" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="InviteFriend"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/invite_friend"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_invite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="Notification"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/notification"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_notifications" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="Instrucation"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/instruction"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_introduction" />
+
+
+            <View
+                android:id="@+id/viewmid"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/card_color_light" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="ShareApp"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/share_app"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_share" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="RateApp"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/rate_app"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_share" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="AboutUs"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/about_us"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_about" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="TermsOfService"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/terms"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_terms" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="PrivacyPolicy"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/ic_privacy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/margin_dp"
+                android:fontFamily="@font/museo_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:onClick="Logout"
+                android:padding="@dimen/margin_dp"
+                android:text="@string/logout"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/text_size_16"
+                app:drawableEndCompat="@drawable/ic_arrow_right"
+                app:drawableStartCompat="@drawable/logout"
+                app:drawableTint="@color/red" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginEnd="@dimen/margin_20dp"
+        android:background="@color/card_color_light" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/card_color_light"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>

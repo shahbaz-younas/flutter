@@ -1,0 +1,12 @@
+# Deny access to .htaccess
+
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+RewriteCond %{HTTP:UserAuthorization} ^(.*)
+RewriteRule .* - [e=HTTP_UserAuthorization:%1]
+
+RewriteEngine on
+
+RewriteRule ^firebase/?$ - [F,L]

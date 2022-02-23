@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical"
+  >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="@string/change_font_size"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/txt_color"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_font_size_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+          android:layout_marginTop="@dimen/margin_dp"
+            android:layout_weight="50"
+            android:enabled="false"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:minWidth="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/txt_color" />
+
+        <SeekBar
+            android:id="@+id/skBar_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_dp"
+            android:layout_marginBottom="@dimen/margin_dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tvOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:background="@color/card_color_light"
+        android:gravity="center"
+        android:onClick="viewClickHandler"
+        android:padding="@dimen/margin_10dp"
+        android:text="@string/ok"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/txt_color"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
